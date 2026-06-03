@@ -270,24 +270,66 @@ const funk: Lesson = {
     { name: 'Hi-Hat Open', family: 'hihat', sequencer: 8, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,_] },
   ],
   tabs: {
-    theory: `Funk lives in the 16th notes. The hi-hat plays every 16th note in this pattern — that density is what makes it feel like it's moving. Then within that density, you place accents and ghost notes to create contour.
+    theory: `Funk lives in the **16th notes**. The hi-hat plays all sixteen in this pattern — that wall of density is what makes the groove feel like it's already moving before anyone touches a backbeat. The art is what you do *inside* that density: where you accent, where you ghost, where you leave a hole.
 
-Ghost notes (the lighter snare hits) are the unsung heroes of funk. They fill the space between the full snare hits without cluttering the pattern. You feel them more than you hear them.
+## Ghost notes are the secret
 
-**OXI One tip:** Kick on steps 1 and 11. Full snare on 5 and 13. Ghost snare on steps 3, 7, 12, 14. All 16 hi-hat steps active. Open hat on step 8. On the OXI One, use velocity — ghost notes at 30–40% velocity. BPM: 95–110.`,
-    ear: `Listen to James Brown's band, Clyde Stubblefield especially. The snare doesn't just hit on 2 and 4 — it chatters between those hits at low volume. That's the ghost notes.
+The lighter snare hits — **ghost notes** (\`steps 3, 7, 12, 14\` here) — are the unsung heroes of funk. They chatter between the full snares on \`steps 5 and 13\` at a whisper, filling space without cluttering it. You *feel* them more than you hear them. Pull them out and the pattern still "works," but it goes flat — a sentence with the rhythm of the words stripped away.
 
-In a mix, ghost notes add "feel" without adding "loudness." If you took them out, the pattern would still work — but it would lose its life.`,
-    fills: `Funk fills often use the snare to build into beat 1. A classic: play 16th note snare hits on steps 14, 15, 16 (all at full velocity), then land on kick on step 1. Three quick snares into a downbeat — a "push" into the next bar.`,
-    soul: `The pocket lives in the contrast between ghost notes that anticipate and full hits that land. Ghost notes slightly early, full hits slightly late — that micro push-pull tension is what makes funk feel like it's moving even when it loops.
+## Density plus restraint
 
-**OXI One timing offsets for the pocket:**
-- Ghost snare hits (steps 3, 7, 12, 14): **-3 to -5%** — ghost notes "set up" the full hits. Being early makes them feel like anticipation, not filler.
-- Full snare (steps 5 and 13): **+5 to +8%** — the "crack" lands heavy. The contrast between early ghosts and late full hits creates the tension.
-- Kick (steps 1 and 11): **-3 to -5%** — push the kick slightly. Funk kick often leads the snare, creating the sense that the groove is propelling forward.
-- Hi-hat (all 16 steps): alternate **-3%** and **+3%** across the steps — not randomly, but consistently odd/even. That subtle wave of early/late across 16th notes is what makes a programmed hi-hat breathe.
+David Garibaldi, with Tower of Power, turned this into a science: *linear* funk, where almost no two limbs strike at the same instant, so every note gets its own slot in the 16th-note grid. The result is busy and *clean* at once. Funk isn't about playing a lot of notes loudly; it's about playing a lot of notes at *different volumes*, so the loud ones mean something.
 
-Start with just the snare offsets: ghost at -4%, full at +6%. That alone will transform the feel before you touch anything else.`,
+> Funk is a conversation between the notes you hear and the ones you almost don't.
+
+## OXI One build
+
+- **Kick** (Seq 8): \`steps 1 and 11\`
+- **Full snare** (Seq 8): \`steps 5 and 13\`
+- **Ghost snare** (Seq 8): \`steps 3, 7, 12, 14\` at \`30–40%\` velocity
+- **Closed hi-hat** (Seq 8): all 16 steps
+- **Open hi-hat** (Seq 8): \`step 8\`
+- **Tempo:** \`95–110 BPM\``,
+    ear: `Funk is a feel you have to hear in the *quiet* parts. Train your ear to follow the ghost notes — the chatter under the backbeat that does the actual grooving.
+
+## The assignment
+
+- **Clyde Stubblefield** — James Brown, "Funky Drummer." The most-sampled drum break in history. Listen to the snare *chatter* between the big hits; that's the ghost-note vocabulary the whole genre was built on.
+- **Jabo Starks** — also James Brown ("Sex Machine"). Stubblefield's counterpart, with a deeper, rounder pocket.
+- **David Garibaldi** — Tower of Power, "What Is Hip?" The clinic in linear funk: every note in its own slot.
+- **Zigaboo Modeliste** — The Meters. New Orleans second-line funk: looser, swampier, impossibly deep.
+- **Bernard Purdie** — the "Purdie Shuffle" (Steely Dan, "Babylon Sisters"). Ghost notes turned into a groove so famous it has its own name.
+
+## What to listen for
+
+Loudness is not the same as importance. In a James Brown record the ghost notes add *feel* without adding *volume* — solo them in your head and you'll hear a second, quieter rhythm running under the obvious one. That hidden layer is the funk.
+
+> Chad Smith of the Red Hot Chili Peppers puts it simply: the pocket is where the band agrees to *wait*. Funk is the sound of musicians refusing to rush.`,
+    fills: `Funk fills don't announce themselves with a tom run — they **build into the one**. The snare gathers speed and shoves you across the bar line into the next downbeat.
+
+## The push into beat 1
+
+Play 16th-note snare hits on \`steps 14, 15, 16\` at *full* velocity — lifting the ghost on \`step 14\` up to a hard hit — then land on the kick on \`step 1\`. Three quick snares stacked right before the downbeat: a *push* into the next bar. It works precisely because the whole pattern has been whispering ghost notes, so three loud snares in a row read as a sudden, deliberate shove.
+
+## Dynamics are the fill
+
+The notes were already there as ghosts; you're not adding hits so much as *turning them up*. That's the funk approach — manipulate velocity, not just placement. A crescendo across \`14 → 15 → 16\` is more musical than three identical hits, because it sounds like a hand *gathering* the bar.
+
+> In funk, the loudest a snare ever gets is the half-second before the one. Save it for there.`,
+    soul: `The pocket lives in a tiny argument between two kinds of note: **ghosts that anticipate** and **full hits that land**. Ghosts a hair early, backbeats a hair late — that micro push-pull is why funk feels like it's *moving* even when it loops forever.
+
+## OXI One offsets for the pocket
+
+- **Ghost snares** (\`steps 3, 7, 12, 14\`): \`-3 to -5%\` — ghosts "set up" the full hits; being early makes them feel like anticipation, not filler.
+- **Full snare** (\`steps 5 and 13\`): \`+5 to +8%\` — the crack lands heavy. The contrast between early ghosts and late backbeats *is* the tension.
+- **Kick** (\`steps 1 and 11\`): \`-3 to -5%\` — push it slightly. A funk kick often leads the snare, propelling the groove forward.
+- **Hi-hat** (all 16 steps): alternate \`-3%\` and \`+3%\` consistently odd/even — not random, a *wave*. That subtle early/late ripple across the 16ths is what makes a programmed hat breathe instead of buzz.
+
+## Where to start
+
+Touch only the snare first: ghosts at \`-4%\`, fulls at \`+6%\`. That single contrast transforms the feel before you adjust anything else. Then add the hi-hat wave, then the kick. Build the pocket in layers — it's a balance, not a setting.
+
+> Garibaldi's secret was never speed. It was that every one of those sixteen notes knew exactly how loud, and exactly how late, it was supposed to be.`,
   },
 }
 

@@ -645,27 +645,66 @@ const fillsPt2: Lesson = {
     { name: 'Crash', family: 'cymbal', sequencer: 8, steps: [X,_,_,_, _,_,_,_, _,_,_,_, _,_,_,_] },
   ],
   tabs: {
-    theory: `A masterclass fill isn't longer or faster — it's better placed. The fill in this pattern starts early (beat 3, step 9) and builds across the entire second half of the bar. The crash on beat 1 is the landing.
+    theory: `A masterclass fill isn't *longer* or *faster* — it's **better placed**. The fill in this pattern starts early, at **beat 3** (\`step 9\`), and builds across the entire second half of the bar, cresting on a crash at \`step 1\`. Most amateurs cram a fill into beat 4 and it sounds panicked. A master gives it room.
 
-"Breathwork" means treating fills like breaths: the pattern is an exhale, the fill is the inhale, and beat 1 is the exhale again. Fills that start too late feel rushed. Fills that start early give the listener time to feel what's coming.
+## Breathwork
 
-**OXI One tip:** Start the fill setup at step 9 (beat 3). Cascade: snare → high tom → mid tom → floor tom across steps 9–16. Crash on step 1. Kick drives hard on step 1 underneath the crash.`,
-    ear: `Listen to John Bonham (Led Zeppelin), Steve Gadd ("50 Ways to Leave Your Lover"), or Questlove. Their fills start with intention — you can feel the "breath" before the fill begins. The bar leading into a fill usually has slightly more energy, slightly more ghost notes, a sense of gathering.`,
-    fills: `Three advanced fill shapes:
-1. **The slow build**: start with 8th notes, move to 16th notes across the fill — it accelerates naturally.
-2. **The reverse cascade**: floor tom → mid tom → high tom → snare (bottom up). Defies expectation, creates a "lift" into the new section.
-3. **The dropout fill**: remove everything (kick, toms) in the last 2 beats and just play snare. The sudden nakedness before a big drop is more powerful than any note you could add.`,
-    soul: `A masterclass fill combines two timing effects: the fill body rushes (pulling you toward the landing), and the landing itself settles heavy. The ear hears the rush as inevitability — "of course it lands there."
+Think of fills as breathing. The groove is an *exhale*; the fill is the *inhale*, the gathering of air; and beat 1 is the exhale again, the release. A fill that starts too late feels like a gasp. A fill that starts early lets the listener *feel* the change coming, so when it lands it feels inevitable rather than abrupt. The Avalanches built an entire album, *Since I Left You*, on this idea — treating the transitions *between* samples as the composition itself, the seams becoming the song.
 
-**OXI One timing offsets for a composed fill:**
-- Groove section (steps 1–8): maintain your established feel — whatever lay back or push you've been using.
-- Early fill notes (steps 9–12): **-3 to -5%** — slight push as the fill begins to build. The gathering feeling starts here.
-- Mid fill (steps 13–14): **-8%** — urgency increases.
-- Late fill (steps 15–16): **-10 to -12%** — maximum rush.
-- Crash on beat 1: **0% or +3%** — land right on or slightly late. After rushing into it, even a dead-on-grid landing feels like weight.
-- Kick underneath crash (step 1): **+5%** — the kick lags slightly under the crash for maximum downbeat heaviness.
+## The composed cascade
 
-Additionally, treat velocities across the fill as a crescendo: steps 9–10 at 60%, 11–12 at 75%, 13–14 at 85%, 15–16 at 95%, crash at 100%. The volume arc and the timing arc together create the sensation of inevitability.`,
+Here the toms cascade across \`steps 9–16\` — snare into the high, mid, and floor toms — gathering momentum toward the **crash on \`step 1\`**, with the **kick driving hard underneath** it for weight. The descent of pitch and the climb of intensity happen at once. That's composition, not reflex.
+
+> An amateur asks "what fill should I play here?" A master asks "what does the *next* section need me to set up?"
+
+## OXI One build
+
+- **Fill setup begins** at \`step 9\` (beat 3) and builds through \`step 16\`.
+- **Crash** (Seq 8): \`step 1\` — the landing.
+- **Kick** (Seq 8): \`steps 1 and 16\` — driving hard under the crash on the one.
+- **Toms** (Seq 8): high \`steps 11, 16\`, mid \`steps 12, 15\`, floor \`step 14\` — the cascade.
+- **Snare** (Seq 8): \`steps 5, 9, 10, 13, 14, 15, 16\`.`,
+    ear: `This is the listening assignment about *intention*. Train your ear to hear the bar *before* the fill — the gathering — because that's where the masters do their real work.
+
+## The assignment
+
+- **John Bonham** — Led Zeppelin, "Fool in the Rain," "Achilles Last Stand." Feel the *breath* before the fill begins; the bar leading in has slightly more energy, a sense of winding up.
+- **Steve Gadd** — Paul Simon, "50 Ways to Leave Your Lover." The most-studied groove-and-fill in modern drumming: a linear, rudimental pattern that sounds composed because it *is*.
+- **Questlove** — The Roots. The master of the *withheld* fill — he'll imply one with a single ghost note and let the pocket do the rest. Restraint at the highest level.
+- **Bernard Purdie** — the architect of the tasteful recorded fill; decades of sessions, never a wasted note.
+
+## What to listen for
+
+The **gathering**. A great fill is telegraphed a full bar early by a subtle lift — an extra ghost note, a touch more energy, a sense that the band is inhaling together. The fill itself is almost the *least* important part; the set-up and the landing are where the craft lives.
+
+> You never hear a great fill arrive by surprise. You feel the room lean in a bar before it lands.`,
+    fills: `Three advanced fill shapes — the vocabulary of composition, not reflex. Each does something a simple roll can't.
+
+1. **The slow build** — start with 8th notes and accelerate into 16th notes across the fill. It speeds up *naturally*, like a wheel gaining momentum, so the energy climbs without you playing any louder.
+2. **The reverse cascade** — floor tom (\`step 14\`) → mid tom (\`step 15\`) → high tom (\`step 16\`) → snare, climbing *bottom-up* instead of the expected top-down. The rising pitch defies expectation and creates a "*lift*" into the new section.
+3. **The dropout fill** — remove everything (**kick and toms**) in the last two beats and play *only* the snare. The sudden nakedness right before a big drop is more powerful than any note you could add. Silence, used precisely, is the loudest fill there is.
+
+## Subtraction is advanced
+
+Notice that the most sophisticated of the three *removes* notes. Anyone can add density; it takes a master to strip the bar to a single voice and trust the space. That dropout, then the full kit slamming back on the one, is one of the biggest gestures in all of drumming.
+
+> The advanced move isn't more notes. It's knowing which notes to take *away* — and having the nerve to do it.`,
+    soul: `A masterclass fill combines two timing effects at once: the **body rushes** (pulling you toward the landing) while the **landing settles heavy**. The ear reads the rush as *inevitability* — "of course it lands there" — and the heavy landing as *arrival*.
+
+## OXI One offsets for a composed fill
+
+- **Groove section** (\`steps 1–8\`): keep your established feel — whatever lay-back or push you've been using.
+- **Early fill** (\`steps 9–12\`): \`-3 to -5%\` — a slight push as the fill begins to gather.
+- **Mid fill** (\`steps 13–14\`): \`-8%\` — urgency increases.
+- **Late fill** (\`steps 15–16\`): \`-10 to -12%\` — maximum rush.
+- **Crash** (\`step 1\`): \`0% or +3%\` — land right on, or a hair late. After rushing into it, even a dead-on landing feels like weight.
+- **Kick under the crash** (\`step 1\`): \`+5%\` — the kick lags slightly beneath the crash for maximum downbeat heaviness.
+
+## Timing *and* velocity
+
+Don't stop at timing — treat velocity across the fill as a **crescendo** too: \`steps 9–10\` at 60%, \`11–12\` at 75%, \`13–14\` at 85%, \`15–16\` at 95%, crash at 100%. The volume arc and the timing arc, working together, create the sensation of inevitability — a wave that *had* to break exactly where it did.
+
+> Rush the body, anchor the crash, let the volume climb the whole way. Three arcs pointing at one note: that's a composed fill.`,
   },
 }
 

@@ -423,25 +423,62 @@ const reggae: Lesson = {
     { name: 'Hi-Hat Open', family: 'hihat', sequencer: 8, steps: [_,_,_,X, _,_,_,_, _,_,_,X, _,_,_,_] },
   ],
   tabs: {
-    theory: `"One drop" means the kick and snare drop TOGETHER on beat 3 — and beat 1 is entirely empty. This is the opposite of rock's instinct to anchor beat 1.
+    theory: `The "one drop" is the most radical idea in popular drumming: **beat 1 is empty**. The kick and snare fall *together* on **beat 3** (\`step 9\`), and the downbeat — the very note rock builds its whole identity on — is simply not played. Letting go of the one is the entire genre.
 
-The power of the one drop comes from that empty beat 1. Your ear expects something there and gets nothing — then beat 3 hits and you feel it in your chest. The negative space IS the groove.
+## Negative space is the groove
 
-**OXI One tip:** Kick and snare both on step 9 only. Hi-hat on odd steps. Open hi-hat on steps 4 and 12 (the "a" of beats 1 and 3). BPM: 65–80. Slower is heavier.`,
-    ear: `Put on any classic reggae track (Bob Marley, Burning Spear, Culture). Count "1-2-3-4" and notice: the big hit isn't on 1. That absence on beat 1 is the signature of the style.
+The power comes from that missing beat 1. Your ear, trained by a lifetime of music, *expects* something there and gets nothing — a held breath — and then beat 3 lands and you feel it in your chest. Carlton Barrett, the drummer for Bob Marley & The Wailers, defined this feel. He didn't invent emptiness; he made emptiness *swing*.
 
-The open hi-hat on the "a" of beat 1 (step 4) creates the swaying quality — it's that slight anticipation before beat 2.`,
-    fills: `Reggae fills are rare and minimal. A "skank" fill: add snare hits on the & of every beat (steps 3, 7, 11, 15) for one bar. Then drop back into the one drop. The contrast between density and space is the fill.`,
-    soul: `The one drop is the heaviest lay back of any pattern in this curriculum. At 65–80 BPM, a 16th note step is 187–230ms — a lot of room to pull behind the grid without the pattern falling apart.
+## Drop, then dub
 
-**OXI One timing offsets for maximum weight:**
-- Kick + snare together (step 9): **+20 to +25%** — this is the most extreme lay back you'll use. It should feel almost wrong the first time you hear it alone. In context, it feels like the floor dropping out.
-- Closed hi-hat: **+8 to +12%** — the hat also lays back, but less than the drop. It creates a sway rather than a thud.
-- Open hi-hat (steps 4 and 12): **-5%** — push these slightly early. They're the anticipatory "lift" before the next beat — they pull you forward just before the drop pulls you back.
+Reggae's children took the subtraction further. In the mixing rooms of King Tubby and Lee "Scratch" Perry, *dub* treated the mixing desk itself as an instrument — dropping the drums out entirely, drenching a single rim-shot in cavernous reverb, letting silence ring. Sly Dunbar later pushed the drums forward into "rockers" and "steppers" feels. But it all starts here, with the courage to leave beat 1 alone.
 
-The interplay between the early open hat and the late drop is the entire groove. Try: open hat at -5%, drop at +22%. That 27% difference across just a few steps is what makes one drop feel like gravity.
+> Rock fills every beat to prove it's there. Reggae empties the most important one to prove it doesn't have to be.
 
-Slower BPM = more absolute lag at the same percentage. At 70 BPM, +22% is about 40ms late. That's detectable by the body, not just the ears.`,
+## OXI One build
+
+- **Kick + Snare/Rim** (Seq 8): both on \`step 9\` only — beat 3, together.
+- **Closed hi-hat** (Seq 8): every odd step.
+- **Open hi-hat** (Seq 8): \`steps 4 and 12\` — the "a" of beats 1 and 3.
+- **Tempo:** \`65–80 BPM\`. Slower is heavier.`,
+    ear: `Reggae trains your ear to hear what *isn't* played. The groove is defined by an absence, and learning to feel that absence is the lesson.
+
+## The assignment
+
+- **Carlton Barrett** — Bob Marley & The Wailers, "One Drop," "Stir It Up." The source. Count "1-2-3-4" and feel how the big hit *withholds* on 1 and arrives on 3.
+- **Burning Spear** / **Culture** — roots reggae, the one drop at its most hypnotic and spiritual.
+- **Sly Dunbar** — Sly & Robbie. Hear how he evolves the one drop into busier "rockers" and "steppers" patterns without losing the weight.
+- **King Tubby** / **Lee "Scratch" Perry** — dub. Listen to drums *disappear* and reappear; the space between hits is the instrument.
+
+## What to listen for
+
+The **hole on beat 1**, and the *sway*. The open hi-hat on the "a" of beat 1 (\`step 4\`) creates that signature lilt — a slight anticipation pulling you toward beat 2. Once you can feel the missing downbeat as a *presence* rather than a gap, you're hearing reggae the way a reggae drummer does.
+
+> In most music the drummer tells you where 1 is. In reggae, the drummer trusts you to feel it on your own.`,
+    fills: `Reggae fills are **rare and minimal** — the genre is built on space, so adding notes is a bigger deal here than in any other style. A fill in the one drop is a brief flood that makes the surrounding emptiness louder.
+
+## The skank fill
+
+Add snare hits on the **& of every beat** (\`steps 3, 7, 11, 15\`) for a single bar, then drop straight back into the one drop. For one bar the airy pattern suddenly *chatters* on every off-beat — and the contrast between that density and the space around it *is* the fill. You don't need a tom run; you need one bar that breaks the silence and one that restores it.
+
+## Restraint is the instrument
+
+Style Scott and the Roots Radics built whole records on this principle: the drama isn't in the fill, it's in the *return*. The moment you fall back into the empty beat 1 after a busy bar, the listener exhales. In a genre of negative space, the most powerful thing you can do is briefly fill it — and then give it back.
+
+> A reggae fill works like a single loud word in a whispered sentence. Use it once and it lands. Use it twice and it's noise.`,
+    soul: `The one drop is the **heaviest lay-back** of any pattern in this curriculum. At \`65–80 BPM\` a 16th-note step lasts \`187–230 ms\` — an enormous amount of room to pull behind the grid before the pattern falls apart. Reggae uses all of it.
+
+## OXI One offsets for maximum weight
+
+- **Kick + Snare/Rim** (\`step 9\`): \`+20 to +25%\` — the most extreme lay-back you'll program. It should feel almost *wrong* the first time you hear it solo. In context, it feels like the floor dropping out from under you.
+- **Closed hi-hat:** \`+8 to +12%\` — the hat lays back too, but *less* than the drop. That gap creates a sway rather than a thud.
+- **Open hi-hat** (\`steps 4 and 12\`): \`-5%\` — push these slightly *early*. They're the anticipatory lift before the next beat, pulling you forward just before the drop pulls you back.
+
+## The two-way pull
+
+The entire groove is the interplay between the early open hat and the late drop. Try the open hat at \`-5%\` and the drop at \`+22%\`: that \`~27%\` swing across just a few steps is what makes the one drop feel like *gravity*. And remember — a slower BPM means more absolute lag at the same percentage. At 70 BPM, \`+22%\` is roughly \`40 ms\` late: detectable by the *body*, not just the ears.
+
+> The kick is so late it almost misses the beat. That "almost" is the whole feeling.`,
   },
 }
 

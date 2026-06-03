@@ -109,24 +109,72 @@ const hipHop: Lesson = {
     { name: 'Hi-Hat Open', family: 'hihat', sequencer: 8, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,X] },
   ],
   tabs: {
-    theory: `Hip-hop breaks from rock's symmetry. The kick doesn't stay on 1 and 3 — it wanders. In this pattern, the second kick hits on the "& of 2" (step 7) instead of beat 3. That displacement is the groove.
+    theory: `Rock anchors the downbeat. Boom bap **leaves it** — and that refusal is the entire genre. This is the sound of the drum machine becoming an instrument of *recomposition*: producers chopping soul and jazz records into pieces and reassembling time itself.
 
-The open hi-hat on the & of 2 and & of 4 creates a "breathing" effect — the hat "opens" just before the snare hits, then snaps shut.
+## The displacement
 
-**OXI One tip:** Kick on steps 1 and 7. Snare on steps 5 and 13. Closed hat on odd steps. Open hat on steps 8 and 16. BPM: 85–95.`,
-    ear: `Listen for where the kick lands that feels "unexpected." In classic hip-hop (Pete Rock, DJ Premier era), the kick almost never just sits on beat 3 — it moves around beats 2 and 3.
+In this pattern the second kick lands on the **& of 2** (\`step 7\`), not on beat 3 where rock would put it. That's the engine. Your ear leans forward waiting for the "3" that never comes, and the snare on **2 and 4** (\`steps 5 and 13\`) catches you instead. *Boom* (kick), *bap* (snare) — KRS-One named the whole genre after that onomatopoeia on *Return of the Boom Bap*. It's the sound of the machine talking back.
 
-Find any boom bap track and air-drum the kick pattern. You'll notice it often hits twice in rapid succession — that's displacement.`,
-    fills: `Hip-hop fills are often just snare doubles or triples. Replace the open hi-hat (step 16) with a snare hit and add another snare on step 15. Two snares before the downbeat = classic hip-hop setup.`,
-    soul: `Boom bap's "lazy" feel is the heaviest lay back of the 101 lessons — the kick and snare both drag behind the grid, and it's intentional.
+## The breath
 
-**OXI One timing offsets for that classic drugged-out feel:**
-- Kick: **+15 to +20%** — almost shockingly late. This is the engine of the J Dilla / Pete Rock weight.
-- Snare: **+10 to +15%** — slightly less late than the kick, so the kick "falls into" the snare.
-- Closed hi-hat: **0%** — keep it on the grid as the reference. If the hat also drags, everything just feels broken.
-- Open hi-hat (steps 8 and 16): **-5%** — push it slightly early. The open hat anticipates the snare rather than following it, which creates the "gasp" before the crack.
+The open hi-hat on the **& of 2 and & of 4** (\`steps 8 and 16\`) is the breath in the pattern. It cracks open just before the snare, then snaps shut — the hat *inhales* so the snare can *land*. Without it the loop is airless; with it, the groove sways.
 
-The contrast between an on-grid hat and a late kick is what makes you feel the lag. Try the kick at +18% first — it'll feel wrong alone, then right in context.`,
+## The grid as a canvas
+
+When DJ Shadow built *Endtroducing.....* almost entirely from records on an Akai MPC60 — widely called the first album made *only* from samples — and when Pete Rock and DJ Premier chopped horn stabs and Rhodes chords on the E-mu SP-1200, the grid stopped being a metronome and became a **canvas**. You're not performing a beat; you're arranging found sound in time, and the placement of a single kick is a compositional decision.
+
+> Rock asks "where's the *one*?" Boom bap asks "what happens if I move it?"
+
+## OXI One build
+
+- **Kick** (Seq 8): \`steps 1 and 7\`
+- **Snare** (Seq 8): \`steps 5 and 13\`
+- **Closed hi-hat** (Seq 8): every odd step
+- **Open hi-hat** (Seq 8): \`steps 8 and 16\`
+- **Tempo:** \`85–95 BPM\` — boom bap breathes slow.`,
+    ear: `The whole art of boom bap is *where* things land — slightly wrong on paper, exactly right in the body. Train your ear on the producers who made a sampler swing.
+
+## The assignment
+
+- **Pete Rock** — "They Reminisce Over You (T.R.O.Y.)." Notice how the drums *thud* while the horn loop floats; the kick is doing something your foot can't quite predict.
+- **DJ Premier** — Gang Starr, anything. Premier *chops*: he takes a loop, cuts it into single hits, and replays it so the groove is his, not the original record's. Listen for the scratched-in hooks and the dusty snare.
+- **J Dilla** — *Donuts*. The kick and snare feel like they're sliding off the grid. They are. On purpose.
+- **DJ Shadow** — *Endtroducing.....*. An entire emotional world built from other people's records and an MPC60.
+
+## What to listen for
+
+The kick that lands where you didn't expect — and then *feels inevitable* a bar later. In golden-era hip-hop the kick almost never just sits on beat 3; it moves around beats 2 and 3, often hitting twice in quick succession. That double-thud is **displacement**, and once you hear it you can't un-hear it.
+
+> Air-drum the kick of any boom bap track. The moment your foot *hesitates* is the moment the producer moved the kick off the grid. That hesitation is the groove.`,
+    fills: `Hip-hop fills don't roll — they *set up*. The genre is built on space, so a fill is usually just one or two extra snares pointing at the downbeat like an arrow.
+
+## The classic setup
+
+Replace the **open hi-hat** on \`step 16\` with a snare hit, and add another snare on \`step 15\`. Two snares stacked right before the "one" (\`step 1\` of the next bar) — the most recognizable hip-hop turnaround there is. It says "here it comes" without a single tom.
+
+## Why less is the move
+
+A drummer fills the bar; a *producer* leaves it alone until the last possible moment. Cut Chemist and the turntablist tradition turned this into theater — a fill could be a single scratch, a stutter, a half-second of silence. The restraint is the style: the emptier the bar, the louder two snares ring at the end of it.
+
+> In rock a fill is a flourish. In boom bap it's a *cue* — the smallest possible gesture that still says "turn the page."`,
+    soul: `Boom bap's "lazy" feel is the heaviest lay-back of the 101 lessons, and every millisecond of it is **on purpose**.
+
+## One switch changed everything
+
+J Dilla turned **quantize off** on his Akai MPC3000 and played the pads by hand — letting the kick drag, the snare fall late, the hats fight the grid. Engineers thought his beats were broken. They weren't. He'd discovered that *conflicting* timing — one element late, another dead on the grid — is what makes a loop feel **alive** instead of mechanical. That discovery rewired modern music; you can hear its children in Questlove, Robert Glasper, half of contemporary R&B.
+
+> The grid is the reference. The soul is everything that refuses to obey it.
+
+## OXI One offsets for the drunk feel
+
+- **Kick** (\`steps 1, 7\`): \`+15 to +20%\` — almost shockingly late. This is the weight, the engine of the Dilla / Pete Rock thud.
+- **Snare** (\`steps 5, 13\`): \`+10 to +15%\` — late, but *less* than the kick, so the kick "falls into" the snare.
+- **Closed hi-hat:** \`0%\` — dead on the grid. Without an on-grid anchor, "late" has nothing to be late *against*, and the whole thing just sounds slow.
+- **Open hi-hat** (\`steps 8, 16\`): \`-5%\` — pushed slightly early. The open hat *anticipates* the snare instead of following it — the gasp before the crack.
+
+## The machine was part of it
+
+This feel lived in the boxes too. The SP-1200's 12-bit converters added a gritty, aliased crunch that producers chased deliberately, and the MPC's **swing** setting delayed every other 16th — think ~\`56–60%\` shuffle, never a clean 50%. Start with the kick alone at \`+18%\`. It'll feel wrong in isolation — then drop the on-grid hat back in and the whole thing snaps into the pocket.`,
   },
 }
 

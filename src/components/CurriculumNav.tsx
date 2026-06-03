@@ -43,14 +43,15 @@ export function CurriculumNav({ currentIndex, completedIds, onSelect, isUnlocked
                 return (
                   <button
                     key={lesson.id}
-                    onClick={() => unlocked && onSelect(index)}
+                    onClick={() => onSelect(index)}
+                    disabled={!unlocked}
                     className={[
                       'w-full flex items-center gap-2 rounded px-2 py-1.5 mb-0.5 text-left text-xs transition-colors',
                       isActive
                         ? 'bg-green-950/50 border border-green-800 text-green-400'
                         : unlocked
                         ? 'text-neutral-400 hover:bg-neutral-800 hover:text-neutral-200 cursor-pointer'
-                        : 'text-neutral-700 cursor-not-allowed',
+                        : 'text-neutral-700 disabled:cursor-not-allowed',
                     ].join(' ')}
                   >
                     <div className={[

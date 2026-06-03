@@ -569,29 +569,64 @@ const jazz: Lesson = {
     { name: 'Kick (feather)', family: 'kick', sequencer: 8, steps: [X,_,_,_, _,_,_,_, X,_,_,_, _,_,_,_] },
   ],
   tabs: {
-    theory: `Jazz swing lives in a triplet grid, not a 16th note grid. Each beat divides into 3 (triplets) rather than 4 (16th notes). The ride cymbal plays "1 - trip - let" where "trip" is skipped and "let" is played — creating the "da-DUM da-DUM" swing feel.
+    theory: `Jazz swing lives in a **triplet grid**, not a 16th-note grid. Each beat divides into *three*, not four — and that single fact reshapes everything. The ride cymbal plays "*one — trip — let*," skipping the middle of the triplet and landing on the "let," which produces the rolling "*da-DUM, da-DUM*" pulse that has carried jazz for a century.
 
-In a 16-step sequencer, we approximate: hits on steps 1, 4, 5, 8, 9, 12, 13, 16. It's not perfect triplet swing, but it gives the shape.
+## The 16-step approximation
 
-The snare in jazz is not fixed — it "comps" (accompanies) the soloists and changes every chorus. What's written here is ONE possible voicing.
+A 16-step sequencer can't hold true triplets — but we can fake the *shape* with hits on \`steps 1, 4, 5, 8, 9, 12, 13, 16\`. The "on" beats (\`1, 5, 9, 13\`) are the quarter notes; the "off" hits (\`4, 8, 12, 16\`) stand in for the "let." It isn't mathematically perfect, but it gives the body the right gesture — and the Soul tab shows how to push it the rest of the way with timing.
 
-**OXI One tip:** Ride on steps 1, 4, 5, 8, 9, 12, 13, 16. Foot hi-hat on steps 5 and 13. Kick feathered (very low velocity) on steps 1 and 9. BPM: 120–220 (jazz tempos vary wildly).`,
-    ear: `Listen to any jazz standard — Miles Davis, Coltrane, Bill Evans. The ride cymbal is the clock. It doesn't play a straight beat; it "swings." The slight delay of the 2nd 8th note in each beat is what creates that rolling, forward-leaning feel.
+## The ride is the clock — comping is a conversation
 
-Try tapping your foot on 2 and 4 while the music plays. In jazz, that foot tap is usually the hi-hat — the anchor.`,
-    fills: `Jazz fills (called "fills" or "set-ups") are usually 2–4 beats on the snare or toms, leading into a phrase. The key: jazz fills respond to the soloist. They "answer" what the horn or piano plays, not a predetermined pattern.
+In jazz the ride keeps time (the "spang-a-lang"), the hi-hat foot chips in on 2 and 4 (\`steps 5 and 13\`), and the snare and kick *comp* — short, responsive accents that change every chorus to answer the soloist. The snare on \`steps 7 and 15\` here is **one** possible voicing, not a fixed part. Tony Williams, barely out of his teens with Miles Davis, blew this open: he broke up the steady ride and turned timekeeping itself into improvisation.
 
-On a drum machine, you're giving a suggestion: a tom hit on step 15, then a crash on step 1, setting up a new chorus.`,
-    soul: `In a 16-step sequencer, true triplet swing can't be programmed perfectly — but you can approximate it with timing offsets on the "off" ride hits. Those are the hits on steps 4, 8, 12, and 16 in this pattern: the "let" of "tri-p-let." They should land late.
+> Rock keeps time *under* the music. Jazz makes keeping time *part* of the music.
 
-**OXI One timing offsets to approximate swing:**
-- Ride "on" hits (steps 1, 5, 9, 13): **0%** — the downbeats are the anchor. Keep them on the grid.
-- Ride "off" hits (steps 4, 8, 12, 16): **+10 to +15%** — push these late to simulate the delayed triplet. +12% is a good starting point. The more you increase it, the "harder" the swing.
-- Foot hi-hat (steps 5 and 13): **0%** — the hi-hat foot is the time-keeper. Grid only.
-- Kick (feathered, steps 1 and 9): **+5 to +8%** — feathering is a lazy gesture by nature. A slight lag fits.
-- Snare (comp, steps 7 and 15): **variable** — push to -8% when "answering" a phrase (urgency), lay back to +10% for a heavy response. Jazz snare comping is expressive; don't lock it to one offset.
+## OXI One build
 
-The single most impactful change: ride off-beats at +12%. That one move transforms a stiff grid into something that swings.`,
+- **Ride** (Seq 8): \`steps 1, 4, 5, 8, 9, 12, 13, 16\`
+- **Hi-hat foot** (Seq 8): \`steps 5 and 13\`
+- **Kick (feathered, very low velocity)** (Seq 8): \`steps 1 and 9\`
+- **Tempo:** \`120–220 BPM\` — jazz tempos vary wildly.`,
+    ear: `Jazz is the deepest listening assignment in this course, because the time is *elastic* and the drummer is a *voice*, not a metronome. Train your ear on the masters of the ride.
+
+## The assignment
+
+- **Elvin Jones** — John Coltrane Quartet, "A Love Supreme." The rolling, triplet-drenched wave; Elvin made the whole kit *swing* as one churning motion. Try to find the "1" — he dares you.
+- **Tony Williams** — Miles Davis, "Nefertiti." Listen to him *open up* the time: the ride breaks its pattern, the hi-hat snaps on 2 and 4, and the pulse floats.
+- **Philly Joe Jones** — Miles's first great quintet. Crisp, conversational comping; the textbook bebop touch.
+- **Max Roach** — "We Insist!" Melodic drumming — solos that are *compositions*. And **Papa Jo Jones** (Count Basie) is the elder who first moved the time to the hi-hat; start there to hear the whole lineage.
+
+## What to listen for
+
+The **swing of the ride** — the second note of each beat lands *late*, and that delay is the entire forward-leaning feel. Then tap your foot on 2 and 4: in jazz that tap is usually the hi-hat, the one fixed anchor in an ocean of moving time.
+
+> The ride cymbal is the heartbeat. Everything else — snare, kick, even the bar line — is breathing.`,
+    fills: `Jazz fills (often called "set-ups") are usually two to four beats on the snare or toms, leading into a phrase. But the defining trait isn't *what* they are — it's that they **respond**. A jazz fill answers what the horn or piano just played; it's improvised conversation, not a memorized lick.
+
+## A suggestion, not a part
+
+A drum machine can't listen to a soloist, so what you program is only a *suggestion* of the gesture: for example, a tom hit on \`step 15\` into a crash on \`step 1\`, setting up a new chorus. (Those voices aren't in this stripped-down kit — they're what you'd reach for on a full set, which is exactly the point: the fill is a reach toward the live moment.)
+
+## Leave room to answer
+
+The real lesson is restraint *as readiness*. Elvin Jones and Tony Williams left space precisely so they could respond — a fill is only meaningful if there was silence to break and a phrase to answer. When you sequence one, imagine the soloist's line it's replying to. A fill with nothing to answer is just decoration.
+
+> In rock a fill is a statement. In jazz it's a reply — and you have to leave a question hanging for it to mean anything.`,
+    soul: `True triplet swing can't be programmed perfectly on a 16-step grid — but you can get most of the way there with timing offsets on the **"off" ride hits**: \`steps 4, 8, 12, 16\`, the "let" of "tri-p-let." They want to land *late*.
+
+## OXI One offsets to approximate swing
+
+- **Ride "on" hits** (\`steps 1, 5, 9, 13\`): \`0%\` — the quarter notes are the anchor. Keep them on the grid.
+- **Ride "off" hits** (\`steps 4, 8, 12, 16\`): \`+10 to +15%\` — push them late to simulate the delayed triplet. \`+12%\` is a good starting point; the more you add, the *harder* the swing.
+- **Hi-hat foot** (\`steps 5, 13\`): \`0%\` — the foot is the timekeeper. Grid only, no exceptions.
+- **Kick (feathered)** (\`steps 1, 9\`): \`+5 to +8%\` — feathering is a lazy gesture by nature, so a slight lag fits.
+- **Snare (comp)** (\`steps 7, 15\`): *variable* — push to \`-8%\` when answering a phrase with urgency, lay back to \`+10%\` for a heavy response. Comping is expressive; never lock it to one number.
+
+## The one move that matters
+
+If you do nothing else, set the ride off-beats to \`+12%\`. That single change transforms a stiff, robotic grid into something that *swings* — it's the difference between a sequencer playing eighth notes and a drummer playing jazz.
+
+> Swing isn't a setting you switch on. It's a *lateness* you dial in by ear until the cymbal starts to roll.`,
   },
 }
 

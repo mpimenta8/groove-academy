@@ -17,30 +17,82 @@ const rock: Lesson = {
     { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
   ],
   tabs: {
-    theory: `The backbeat is the backbone of rock, pop, and R&B. Snare lands on beats 2 and 4 — those are your anchor points. Everything else builds around them.
+    theory: `The backbeat is the first thing your body learned about music before you had words for it. Snare on **2 and 4** — those two hits are where the crowd claps, where the head nods, where the song plants its feet. Everything else is decoration hung on that frame.
 
-The kick on beats 1 and 3 with snare on 2 and 4 is sometimes called the "4/4 grid." It sounds simple because it is — and that's the point. Simplicity creates space for everything else.
+## Why 2 and 4 carry the weight
 
-**OXI One tip:** Program at 120–140 BPM. Kick on steps 1 and 9. Snare on steps 5 and 13. Closed hi-hat on every odd step (1, 3, 5, 7, 9, 11, 13, 15).`,
-    ear: `Listen for the snare on 2 and 4 — it's the "crack" that cuts through a mix. Clap along with the snare in any rock or pop song and you'll always land on 2 and 4.
+Beats 1 and 3 are the floor — where the kick lands (\`steps 1 and 9\`), the gravitational *down*. But 1 and 3 are *expected*; the ear takes them for granted. The snare on **2 and 4** (\`steps 5 and 13\`) is the *answer* to the kick — the response in a call-and-response that's been running since field hollers and gospel hand-claps. Put the loud crack on the off-beats and the groove starts to *walk*.
 
-Try counting out loud: "1 and 2 and 3 and 4 and." The snare hits on the numbers 2 and 4.`,
-    fills: `The simplest fill from this pattern: replace the last two hi-hats (steps 13 and 15) with two snare hits. This signals the end of the bar without complexity.
+Al Jackson Jr. — the engine of Booker T. & the M.G.'s and the whole Stax sound — was called *the human timekeeper*. He understood that the backbeat isn't about playing more; it's about making two snares land with such authority that the entire band can lean on them. Listen to "Green Onions": the kit does almost nothing, and it's everything.
 
-A classic 4-stroke fill: snare on steps 13, 14, 15, then kick back on 1. The snare "runs" into the downbeat.`,
-    soul: `**"Behind the grid" means slightly late** — not early. The note lands just after the grid marker. Laying back mimics how a heavy arm falls under gravity: it pulls downward instead of striking forward. The opposite (hitting early) is called **pushing**, and it creates urgency instead of weight.
+## The grid is mostly space
 
-At 120 BPM, one 16th note step is 125ms. A subtle lay back is 5–15ms late. A heavy, "drunk" feel is 15–25ms late. In OXI One terms (where each step can deviate -45% to +45% of a 16th note):
+Kick on 1 and 3, snare on 2 and 4, hat on the offs — the "4/4 grid." It sounds simple because it *is*, and that's the design. Simplicity is what leaves room for the guitar, the vocal, the bass to breathe. A drummer who fills every gap is a drummer nobody wants to play with.
 
-- **Subtle lay back**: kick at **+5 to +8%**, snare at **+8 to +12%**
-- **Heavy lay back**: kick at **+12 to +15%**, snare at **+15 to +20%**
-- **Pushing (urgency)**: kick and snare at **-5 to -8%**
+> The backbeat is a promise: *I will be here on 2 and 4, every time, so the rest of you can go anywhere.*
 
-Leave the hi-hat at 0%. The hi-hat on the grid is the reference — it makes the kick and snare's offset feel intentional rather than sloppy. If everything lays back together, the ear recalibrates and you lose the effect.
+## A master's wrinkle
 
-Try this: program the pattern, then nudge only the snare to +10%. Play it back. That single offset makes the snare feel like it's being "slapped" rather than "tapped."
+Here's what separates a machine from Charlie Watts: on a real kit, Watts often *lifted* his right hand off the hi-hat on the backbeat — playing the snare on 2 and 4 *alone*, the hat dropping out beneath it. That tiny gap is a huge part of why the Rolling Stones *lope* instead of march. You can imply the same thing by pulling the velocity out of the hi-hat under the snare.
 
-On a drum machine with no offsets, you're perfectly on the grid. That's neutral — not wrong. The arrangement and sample character carry the feel.`,
+## OXI One build
+
+- **Kick** (Seq 8): \`steps 1 and 9\`
+- **Snare** (Seq 8): \`steps 5 and 13\`
+- **Closed hi-hat** (Seq 8): every odd step — \`1, 3, 5, 7, 9, 11, 13, 15\`
+- **Tempo:** \`120–140 BPM\`
+
+Build it, then try Watts's trick: drop the hi-hat velocity on \`steps 5 and 13\` and feel the snare step forward.`,
+    ear: `The backbeat is the easiest groove in the world to *find* and the hardest to play with real authority. Train your ear on the players who made two notes sound like the whole song.
+
+## The assignment
+
+Put these on and clap *only* on 2 and 4 — never 1, never 3:
+
+- **Al Jackson Jr.** — Booker T. & the M.G.'s; Al Green's "Let's Stay Together." The most patient backbeat ever recorded. He *waits*.
+- **Phil Rudd** — AC/DC, "Back in Black." The discipline *is* the point: the same beat for four minutes, never decorated, and it's colossal. Notice how badly your hands want to add a fill — and how much better it sounds when they don't.
+- **Ringo Starr** — almost anything. His feel — the slight drag, the matched-but-never-identical hits — is why drummers worship the player flashier technicians underrated for decades.
+- **Dave Grohl** — Nirvana, "Smells Like Teen Spirit." The backbeat with the lid off: full-arm, full-velocity, the snare as an *event*.
+
+## What to listen for
+
+The **crack**. In a dense mix the snare on 2 and 4 is the one element that has to cut through guitars, bass, and vocal to tell your body where the beat is. Producers spend hours on that single sound for exactly this reason. Once you start hearing *where* it sits — dead-on, or a hair behind — you're hearing feel itself.
+
+> Count out loud: "1 *and* 2 *and* 3 *and* 4 *and*." The snare lands on the numbers. Your body always knew that — now your ear does too.`,
+    fills: `A fill is how you announce that something is about to change. In a backbeat the most powerful fills are the *smallest* ones — the groove is so stable that the tiniest break reads loud and clear.
+
+## The simplest fill in rock
+
+Replace the **last two hi-hats** (\`steps 13 and 15\`) with two snare hits. That's the whole move. You've ridden the hat all bar; two snares at the end say "end of phrase" without ever leaving the pocket. It's the fill Jason McGerr (Death Cab for Cutie) reaches for — *taste over flash*, the fill that serves the song instead of the drummer's ego.
+
+## The 4-stroke run-up
+
+A classic: snare on \`steps 13, 14, 15\`, then kick back on \`step 1\` of the next bar. Three snares "running" into the downbeat, four strokes counting the landing — the cadence of a sentence trailing into its period.
+
+## The discipline of *not* filling
+
+David Lovering's playing in the Pixies is a clinic in restraint: he lets the loud-quiet-loud dynamics do the work and saves the explosion for when it *means* something. The hardest thing in rock drumming is to ride the backbeat for sixteen bars and trust that the *absence* of a fill is itself a statement.
+
+> A fill is punctuation, not a paragraph. Most bars want a period — not an exclamation mark.`,
+    soul: `**"Behind the grid" means slightly late** — not early. The note lands just *after* the grid marker. Laying back mimics how a heavy arm falls under gravity: it pulls downward instead of striking forward. Hitting early — **pushing** — creates urgency instead of weight. The backbeat can do either, and choosing is the entire art.
+
+## The physics of feel
+
+At 120 BPM, one 16th-note step is **125 ms**. A subtle lay-back is \`5–15 ms\` late; a heavy, "drunk" feel is \`15–25 ms\` late. On the OXI One each step deviates **-45% to +45%** of a 16th note. In those terms:
+
+- **Subtle lay-back:** kick \`+5 to +8%\`, snare \`+8 to +12%\`
+- **Heavy lay-back:** kick \`+12 to +15%\`, snare \`+15 to +20%\`
+- **Pushing (urgency):** kick and snare at \`-5 to -8%\`
+
+## Leave the hi-hat alone
+
+Keep the hi-hat at \`0%\`. The hat on the grid is the *reference* — it's what makes the kick and snare's offset read as intentional instead of sloppy. If everything lays back together the ear recalibrates and you lose the effect entirely. This is the most common mistake there is: drag *everything*, then wonder why it sounds slow instead of heavy.
+
+## Steal this
+
+Program the pattern, then nudge *only* the snare to \`+10%\`. Play it back. That single offset makes the snare feel **slapped** rather than tapped — the Watts/Ringo thing, where the backbeat leans on the band like a hand on a shoulder. It's the difference between a drum machine and a drummer.
+
+> On a perfectly quantized grid you're neither pushing nor dragging. That's not wrong — it's *neutral*. The arrangement and the sample carry the feel. But the moment you want a body to move, give the snare a few milliseconds of gravity.`,
   },
 }
 

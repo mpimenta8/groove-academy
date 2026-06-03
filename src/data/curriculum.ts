@@ -721,32 +721,73 @@ const humanization: Lesson = {
     { name: 'Hi-Hat Open', family: 'hihat', sequencer: 8, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,X] },
   ],
   tabs: {
-    theory: `The grid is a suggestion. A human drummer never hits every note at the same velocity. The hi-hat pattern here alternates between full and ghost hits — on a real kit, a drummer's hi-hat naturally accents beats 1 and 3 while the "in-between" strokes are lighter.
+    theory: `The grid is a **suggestion**. A human drummer never hits two notes at exactly the same velocity or exactly the same instant — and those tiny inconsistencies are not flaws. They are the *entire* difference between a machine and a musician. This final lesson is about putting the human back into the box on purpose.
 
-Two tools for humanization on any drum machine:
-1. **Velocity variation**: alternate strong (100%) and soft (40–60%) hits within a pattern.
-2. **Timing micro-shift**: "push" (hit slightly early) for urgency; "lay back" (slightly late) for heaviness. Most hardware sequencers have a micro-time offset per step.
+## Two tools, endless feel
 
-**OXI One tip:** Use per-step velocity. Set strong hits to 100, ghost notes to 35–45. For timing, use the step "nudge" feature: lay back the kick by +5ms and the snare by +8ms on a heavy groove. Leave the hi-hat on the grid.`,
-    ear: `Listen to a drum machine pattern and then listen to a live drummer playing the same pattern. The machine is perfectly even — every hit the same velocity, perfectly on the grid. The human version has tiny imperfections that make it feel alive.
+The hi-hat here alternates **full and ghost** hits across all 16 steps — because on a real kit the hand naturally accents the strong beats and lets the in-between strokes fall lighter. From that one observation come the two tools of humanization:
 
-Steve Reich's "Music for 18 Musicians" is a useful study in how tiny phase differences between identical patterns create motion and feel.`,
-    fills: `Humanized fills accent the beginning and end of the fill, with lighter hits in the middle. Think of it as a crescendo: soft → medium → loud → CRASH. Program the velocities explicitly rather than leaving them all at 100%.`,
-    soul: `J Dilla programmed his MPC to play behind the beat deliberately — not by accident. That "drunk" feel, combined with intentionally imperfect velocities, became one of the most influential sounds in modern music. You can recreate that system on the OXI One.
+1. **Velocity variation** — alternate strong (\`100%\`) and soft (\`40–60%\`) hits so the pattern has *contour* instead of a flat wall of identical notes.
+2. **Timing micro-shift** — *push* (slightly early) for urgency, *lay back* (slightly late) for weight. Every feel in this course is some recipe of these two dials.
 
-**The Dilla method — OXI One offsets:**
-- Kick: **+15 to +20%** — very late. Feels wrong in isolation, right in context.
-- Snare: **+12 to +18%** — late, but slightly less than the kick. The kick "falls into" the snare.
-- Hi-hat: **0%** — the grid anchor. Without something on the grid, "late" has no reference.
-- Ghost notes: **-3 to -5%** — push them early. The contrast between early ghosts and late full hits is the pocket.
+Erin Tate of Minus the Bear built a career in the seam between programmed and played — live drums against sequenced parts — and the lesson is always the same: the machine gives you *precision*, and your job is to spend some of it back, deliberately, to buy *feel*.
 
-**Velocity variation — the other half:**
-A timing offset alone doesn't complete the feel. Pair it with velocity randomness:
-- Main hits: 90–100% velocity (vary ±5% per hit, not identical each loop)
-- Hi-hat off-beats: 50–65% (alternate, not uniform)
-- Ghost notes: 30–40%
+> Perfection is free and worthless. Feel costs you a few milliseconds and a little velocity, paid on purpose.
 
-There's also a psychoacoustic trick: quieter notes are *perceived* as slightly late even when they're on the grid. A ghost note at 35% velocity will feel late to the ear even at 0% offset. This means velocity and timing work together — you don't always need large offsets if your velocities are already varied.`,
+## OXI One build
+
+- **Kick** (Seq 8): \`steps 1, 5, 9, 13\`
+- **Snare** (Seq 8): full on \`steps 5, 13\`; ghost on \`steps 3, 7, 9, 12, 15\`
+- **Closed hi-hat** (Seq 8): all 16 steps, alternating full and ghost
+- **Open hi-hat** (Seq 8): \`steps 8 and 16\`
+- **Velocity:** strong hits at \`100\`, ghost notes at \`35–45\``,
+    ear: `This is the listening assignment that ties the whole course together: learn to hear the *imperfections* that make music feel alive.
+
+## The assignment
+
+- A **drum machine** vs. a **live drummer** playing the same beat. The machine is perfectly even — every hit identical, dead on the grid. The human version has tiny deviations in time and volume, and your body trusts it more. Switch between them until you can name *what's* different.
+- **J Dilla** — *Donuts*. The reference recording for *deliberate* imperfection: late, loose, impossibly human, made on a machine.
+- **The Avalanches** — *Since I Left You*. Hundreds of imperfect, dusty samples assembled so the *seams* and wobble become the warmth.
+- **Steve Reich** — "Music for 18 Musicians." A study in how minute *phase* differences between identical patterns generate motion and shimmer from nothing but timing.
+
+## What to listen for
+
+The **wobble**. Once you can hear the micro-variations — a snare a hair late, a hi-hat a touch quieter, two takes drifting against each other — you'll never hear a flat, quantized loop the same way again. You'll hear what's *missing*.
+
+> A machine repeats. A human *varies*. Feel is just controlled variation — and now you know how to control it.`,
+    fills: `A humanized fill has a **shape** — it breathes louder and softer, exactly like a real arm gaining and releasing tension. The lazy approach is to slam every fill note at full velocity; the result sounds like a machine, because it is one.
+
+## Program the crescendo
+
+Accent the *beginning* and *end* of the fill and let the middle sit lighter — or build a straight crescendo: soft → medium → loud → **CRASH**. Either way, program the velocities *explicitly* instead of leaving them all at \`100%\`. A four-note fill that reads \`70 → 80 → 90 → 100\` sounds like a hand gathering force; the same four notes all at \`100\` sound like a stapler.
+
+## Borrow from every lesson
+
+You already have the vocabulary: the funk crescendo into the one, the composed rush of Fills Pt.2, the dynamic restraint of rock. Humanizing a fill just means applying *velocity* to those shapes as deliberately as you applied *timing*.
+
+> A flat fill is a list of notes. A shaped fill is a gesture. Give it a beginning, a middle, and an arrival.`,
+    soul: `J Dilla programmed his MPC to play *behind* the beat **deliberately** — not by accident, not because he couldn't play in time. That "drunk" feel, married to intentionally imperfect velocities, became one of the most influential sounds in modern music. Everything in this course has been building toward the system that produces it, and you can recreate it whole on the OXI One.
+
+## The Dilla method — OXI One offsets
+
+- **Kick:** \`+15 to +20%\` — very late. Feels wrong in isolation, right in context.
+- **Snare:** \`+12 to +18%\` — late, but slightly *less* than the kick, so the kick "falls into" the snare.
+- **Hi-hat:** \`0%\` — the grid anchor. Without something on the grid, "late" has no reference and it all just sounds slow.
+- **Ghost notes:** \`-3 to -5%\` — push them early. The contrast between early ghosts and late full hits *is* the pocket.
+
+## Velocity is the other half
+
+A timing offset alone doesn't finish the feel — pair it with velocity *variation*:
+
+- **Main hits:** \`90–100%\`, varied \`±5%\` per hit so no two loops are identical.
+- **Hi-hat off-beats:** \`50–65%\`, alternating rather than uniform.
+- **Ghost notes:** \`30–40%\`.
+
+## The trick that ties it together
+
+Here's the secret that unifies both tools: **quieter notes are *perceived* as slightly late, even when they're dead on the grid.** A ghost note at \`35%\` velocity will *feel* late at \`0%\` offset. So velocity and timing aren't two separate tools — they're two handles on the same feeling. If your velocities are already alive, you need far less timing offset to sell the groove.
+
+> This is the whole course in one idea: the grid is where the notes *are*, but feel is everything you do to make them sound like they came from a body. Now go make the machine breathe.`,
   },
 }
 

@@ -347,29 +347,66 @@ const fillsPt1: Lesson = {
     { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,_,X,_, X,_,X,_, X,_,X,_, _,_,_,_] },
   ],
   tabs: {
-    theory: `A fill is a break in the pattern that signals a transition — into a new section, a new bar, or a change in energy. The most important thing about a fill is what comes AFTER it: the landing.
+    theory: `A fill is a break in the pattern that signals a transition — into a new section, a new bar, a change in energy. But here's the secret every great drummer knows: the most important part of a fill is not the fill. It's the **landing**.
 
-This pattern shows a simple fill across beat 4 (steps 13–16): snare into high tom into mid tom, landing on kick at step 1 (the "one"). The hi-hat drops out during the fill so the toms are heard clearly.
+## The fill serves the one
 
-**OXI One tip:** Keep the fill to the last 4 steps (13–16). Don't fill too early or you lose the groove. The downbeat kick at step 1 is the payoff — make sure it's there.`,
-    ear: `Fills announce themselves by breaking the hi-hat pattern. When the ride or hi-hat stops in a groove, your brain knows a fill is coming. Listen for that moment of "opening up" before a fill starts.
+This pattern runs a simple fill across **beat 4** (\`steps 13–16\`): snare into high tom (\`step 15\`) into mid tom (\`step 16\`), all landing on the kick at \`step 1\` — the "one." The closed hi-hat (riding \`steps 1–11\`) *drops out* across beat 4 so the toms speak clearly. That drop-out is itself a signal: the moment the steady hat disappears, the body knows something is coming.
 
-Count the bars. Fills almost always happen on bar 4 of a 4-bar phrase. That's the "question" — and bar 5, beat 1 is the "answer."`,
-    fills: `Three basic fill types:
-1. **Snare roll**: all 4 steps of beat 4 are snare hits. Simple, works everywhere.
-2. **Tom cascade**: high tom → mid tom across beat 4. Signals a drop.
-3. **Kick setup**: remove the kick on beat 3, add it back hard on beat 1. The absence creates anticipation.`,
-    soul: `A fill that "rushes" (lands early) creates excitement and pull — it feels like it's dragging you into the next bar. Most good fills rush slightly, even when the drummer doesn't intend it. You can program that intentionally.
+## Don't fill too early
 
-**OXI One timing offsets — the fill rush:**
-- Groove steps before the fill (steps 1–12): maintain whatever feel you've established — lay back, neutral, or pushed.
-- Fill entry (step 13): **0%** — start right on the grid, no rush yet.
-- Step 14: **-5%** — begin to push.
-- Step 15: **-8%** — more urgency.
-- Step 16: **-10 to -12%** — maximum rush, right before the landing.
-- Beat 1 (landing kick): **0% or +3%** — the sudden "normalization" after the rushed fill creates a snap. Landing slightly late after rushing into it feels like throwing a punch and then planting your feet.
+Keep the fill to the last four steps. Fill too early and you erase the groove you spent the bar establishing — there's nothing to *transition from*. John Bonham understood this better than anyone: his fills are short, late, and devastating because the bar before them is rock-solid. The downbeat kick at \`step 1\` is the payoff. Everything else is set-up.
 
-The contrast between the rush and the landing is the fill. Without the landing the rush just sounds frantic.`,
+> A fill without a landing is a question with no answer. The "one" is the answer — protect it.
+
+## OXI One build
+
+- **Kick** (Seq 8): \`steps 1, 9, 16\`
+- **Snare** (Seq 8): \`steps 5, 13, 14, 15, 16\`
+- **Tom High** (Seq 8): \`step 15\`
+- **Tom Mid** (Seq 8): \`step 16\`
+- **Closed hi-hat** (Seq 8): \`steps 1, 3, 5, 7, 9, 11\` — drops out on beat 4`,
+    ear: `You can hear a fill coming before it arrives. Train your ear on the *approach* — the gathering energy that tells you the bar is about to turn.
+
+## The assignment
+
+- **John Bonham** — Led Zeppelin, "Good Times Bad Times." The bass-drum triplets are famous, but study how he *sets up* a fill: the bar before is dead steady, so the fill explodes out of stillness.
+- **Stewart Copeland** — The Police, "Message in a Bottle." Copeland's fills are *hooks* — as memorable as the vocal. A fill can be a part you hum.
+- **Jason McGerr** — Death Cab for Cutie. Fills that serve the song's emotion, never the drummer's ego. Restraint as taste.
+- **Travis Barker** — blink-182. The opposite pole: fast, precise, rudimental fills that still land exactly on the one. Speed in service of placement.
+
+## What to listen for
+
+The **hi-hat stopping**. In almost every groove the fill is announced by the steady ride or hat breaking — that sudden "opening up" is your cue. And count the bars: fills almost always arrive on bar 4 of a 4-bar phrase. Bar 4 is the question; bar 5, beat 1 is the answer.
+
+> Listen for the silence in the hats *before* the fill. The space is the announcement.`,
+    fills: `Three basic fill types — the starter vocabulary every drummer owns. Each is built from this lesson's kit: two toms, no floor tom, so keep the cascade honest to what's on the pads.
+
+1. **Snare roll** — all four steps of beat 4 (\`steps 13, 14, 15, 16\`) are snare hits. Dead simple, works everywhere, the cleanest way to announce a change.
+2. **Tom cascade** — high tom (\`step 15\`) into mid tom (\`step 16\`) across beat 4. Moving down the toms signals a *drop*; the descending pitch pulls the energy into the new section.
+3. **Kick setup** — remove the kick on beat 3 (\`step 9\`), then add it back *hard* on beat 1 (\`step 1\`). The absence where you expect a kick creates anticipation; the return is the release.
+
+## Mix and match
+
+These aren't separate boxes — Travis Barker would stack all three in a single bar. Master each one cleanly on its own, landing every time on the "one," before you combine them. A sloppy fill that misses the downbeat is worse than no fill at all.
+
+> The three fills are words. Learning to land them is learning to *speak*.`,
+    soul: `A fill that **rushes** — lands slightly early — creates excitement and pull. It feels like it's *dragging* you into the next bar. Most good fills rush a little even when the drummer doesn't mean to; the body leans forward toward the change. You can program that intention deliberately.
+
+## OXI One offsets — the fill rush
+
+- **Groove steps before the fill** (\`steps 1–12\`): keep whatever feel you've established — lay back, neutral, or pushed.
+- **Fill entry** (\`step 13\`): \`0%\` — start right on the grid, no rush yet.
+- **\`step 14\`:** \`-5%\` — begin to push.
+- **\`step 15\`:** \`-8%\` — more urgency.
+- **\`step 16\`:** \`-10 to -12%\` — maximum rush, right before the landing.
+- **Landing kick** (\`step 1\`): \`0% or +3%\` — the sudden *normalization* after a rushed fill creates a snap. Landing dead-on (or a hair late) after rushing into it feels like throwing a punch and then planting your feet.
+
+## The contrast is everything
+
+The rush only works because of the landing. Accelerate into the bar line, then *plant* on the one — that contrast is the whole effect. Without the steady landing, a rushed fill just sounds frantic: a drummer who's lost the tempo instead of one who's bending it.
+
+> Rush the approach, anchor the arrival. Excitement is the gap between the two.`,
   },
 }
 

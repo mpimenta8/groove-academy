@@ -25,12 +25,22 @@ The kick on beats 1 and 3 with snare on 2 and 4 is sometimes called the "4/4 gri
     ear: `Listen for the snare on 2 and 4 — it's the "crack" that cuts through a mix. Clap along with the snare in any rock or pop song and you'll always land on 2 and 4.
 
 Try counting out loud: "1 and 2 and 3 and 4 and." The snare hits on the numbers 2 and 4.`,
-    fills: `The simplest fill from this pattern: replace the last two hi-hats (steps 15–16) with two snare hits. This signals the end of the bar without complexity.
+    fills: `The simplest fill from this pattern: replace the last two hi-hats (steps 13 and 15) with two snare hits. This signals the end of the bar without complexity.
 
 A classic 4-stroke fill: snare on steps 13, 14, 15, then kick back on 1. The snare "runs" into the downbeat.`,
-    soul: `Even a basic backbeat has feel. A drummer who plays this pattern at 120 BPM with the kick and snare slightly behind the grid sounds heavier than one who plays it perfectly on time. "Laying back" creates weight.
+    soul: `**"Behind the grid" means slightly late** — not early. The note lands just after the grid marker. Laying back mimics how a heavy arm falls under gravity: it pulls downward instead of striking forward. The opposite (hitting early) is called **pushing**, and it creates urgency instead of weight.
 
-On a drum machine, you're perfectly on the grid. That's fine — the arrangement and the instruments themselves carry the feel.`,
+At 120 BPM, one 16th note step is 125ms. A subtle lay back is 5–15ms late. A heavy, "drunk" feel is 15–25ms late. In OXI One terms (where each step can deviate -45% to +45% of a 16th note):
+
+- **Subtle lay back**: kick at **+5 to +8%**, snare at **+8 to +12%**
+- **Heavy lay back**: kick at **+12 to +15%**, snare at **+15 to +20%**
+- **Pushing (urgency)**: kick and snare at **-5 to -8%**
+
+Leave the hi-hat at 0%. The hi-hat on the grid is the reference — it makes the kick and snare's offset feel intentional rather than sloppy. If everything lays back together, the ear recalibrates and you lose the effect.
+
+Try this: program the pattern, then nudge only the snare to +10%. Play it back. That single offset makes the snare feel like it's being "slapped" rather than "tapped."
+
+On a drum machine with no offsets, you're perfectly on the grid. That's neutral — not wrong. The arrangement and sample character carry the feel.`,
   },
 }
 
@@ -56,7 +66,15 @@ The open hi-hat on the & of 2 and & of 4 creates a "breathing" effect — the ha
 
 Find any boom bap track and air-drum the kick pattern. You'll notice it often hits twice in rapid succession — that's displacement.`,
     fills: `Hip-hop fills are often just snare doubles or triples. Replace the open hi-hat (step 16) with a snare hit and add another snare on step 15. Two snares before the downbeat = classic hip-hop setup.`,
-    soul: `The looseness in hip-hop kick patterns often came from a human sampling and re-chopping breaks. The slightly imperfect timing of a break played at a different BPM than intended gave hip-hop its "lazy" feel. On a drum machine, you're recreating that looseness by choosing where the kick lands — not by accident but by design.`,
+    soul: `Boom bap's "lazy" feel is the heaviest lay back of the 101 lessons — the kick and snare both drag behind the grid, and it's intentional.
+
+**OXI One timing offsets for that classic drugged-out feel:**
+- Kick: **+15 to +20%** — almost shockingly late. This is the engine of the J Dilla / Pete Rock weight.
+- Snare: **+10 to +15%** — slightly less late than the kick, so the kick "falls into" the snare.
+- Closed hi-hat: **0%** — keep it on the grid as the reference. If the hat also drags, everything just feels broken.
+- Open hi-hat (steps 8 and 16): **-5%** — push it slightly early. The open hat anticipates the snare rather than following it, which creates the "gasp" before the crack.
+
+The contrast between an on-grid hat and a late kick is what makes you feel the lag. Try the kick at +18% first — it'll feel wrong alone, then right in context.`,
   },
 }
 
@@ -83,7 +101,15 @@ The open hi-hat on the "& of 2" (step 8) is the secret weapon. That single open 
 
 The difference between a stiff four-on-the-floor and a groovy one is often just that open hi-hat and whether the clap/snare has any "snap" to it (attack/transient shape).`,
     fills: `Electronic fills often aren't snare rolls — they're drops. Remove the kick from beat 4 in the last bar (remove step 13). The anticipation of the "missing" kick creates tension. Then the kick comes back on beat 1 and the drop hits hard.`,
-    soul: `House music's soul comes from its gospel and soul roots — DJs in Chicago layered it over disco. The kick is rigid, but the vocal samples and chords breathe over it. On a drum machine, your job is to be the steady foundation that lets everything else dance.`,
+    soul: `Electronic music is the one genre where being on the grid is a stylistic choice, not a limitation. The metronomic kick IS the feel — but "on the grid" doesn't mean every element has to be.
+
+**OXI One timing offsets to add groove without losing drive:**
+- Kick: **0% to -3%** — dead on grid, or barely pushed. The kick's job is to be the clock.
+- Closed hi-hat: **-3 to -5%** — a subtle push makes the hat feel urgent and forward. This is the difference between house that makes you bob and house that makes you dance.
+- Open hi-hat (step 8): **+5 to +8%** — lay it back slightly. That single open hat is the "exhale" of the pattern — a late exhale feels more relaxed.
+- Clap: offset it **+3 to +5%** from the snare — two hits nearly but not perfectly together widens the clap and makes it feel human.
+
+House = slight push on hat (-3%), slight lag on open hat (+6%). Techno = everything at 0%, no exceptions. The rigidity IS the aggression.`,
   },
 }
 
@@ -109,7 +135,15 @@ Ghost notes (the lighter snare hits) are the unsung heroes of funk. They fill th
 
 In a mix, ghost notes add "feel" without adding "loudness." If you took them out, the pattern would still work — but it would lose its life.`,
     fills: `Funk fills often use the snare to build into beat 1. A classic: play 16th note snare hits on steps 14, 15, 16 (all at full velocity), then land on kick on step 1. Three quick snares into a downbeat — a "push" into the next bar.`,
-    soul: `"The pocket" is a feeling, not a position. It's when the kick, bass, and drums all lock into the same micro-feel and the music seems to propel itself. Ghost notes and displaced kicks are the tools — but the goal is that feeling of inevitability, where every note feels like it couldn't land anywhere else.`,
+    soul: `The pocket lives in the contrast between ghost notes that anticipate and full hits that land. Ghost notes slightly early, full hits slightly late — that micro push-pull tension is what makes funk feel like it's moving even when it loops.
+
+**OXI One timing offsets for the pocket:**
+- Ghost snare hits (steps 3, 7, 12, 14): **-3 to -5%** — ghost notes "set up" the full hits. Being early makes them feel like anticipation, not filler.
+- Full snare (steps 5 and 13): **+5 to +8%** — the "crack" lands heavy. The contrast between early ghosts and late full hits creates the tension.
+- Kick (steps 1 and 11): **-3 to -5%** — push the kick slightly. Funk kick often leads the snare, creating the sense that the groove is propelling forward.
+- Hi-hat (all 16 steps): alternate **-3%** and **+3%** across the steps — not randomly, but consistently odd/even. That subtle wave of early/late across 16th notes is what makes a programmed hi-hat breathe.
+
+Start with just the snare offsets: ghost at -4%, full at +6%. That alone will transform the feel before you touch anything else.`,
   },
 }
 
@@ -137,9 +171,19 @@ This pattern shows a simple fill across beat 4 (steps 13–16): snare into high 
 Count the bars. Fills almost always happen on bar 4 of a 4-bar phrase. That's the "question" — and bar 5, beat 1 is the "answer."`,
     fills: `Three basic fill types:
 1. **Snare roll**: all 4 steps of beat 4 are snare hits. Simple, works everywhere.
-2. **Tom cascade**: high tom → mid tom → floor tom across beat 4. Signals a drop.
+2. **Tom cascade**: high tom → mid tom across beat 4. Signals a drop.
 3. **Kick setup**: remove the kick on beat 3, add it back hard on beat 1. The absence creates anticipation.`,
-    soul: `The best fills are the ones you don't notice — they feel like a natural exhale of the groove, not a showcase. Buddy Rich could play a 32nd-note fill that lasted 2 seconds and feel inevitable. The goal isn't complexity; it's inevitability.`,
+    soul: `A fill that "rushes" (lands early) creates excitement and pull — it feels like it's dragging you into the next bar. Most good fills rush slightly, even when the drummer doesn't intend it. You can program that intentionally.
+
+**OXI One timing offsets — the fill rush:**
+- Groove steps before the fill (steps 1–12): maintain whatever feel you've established — lay back, neutral, or pushed.
+- Fill entry (step 13): **0%** — start right on the grid, no rush yet.
+- Step 14: **-5%** — begin to push.
+- Step 15: **-8%** — more urgency.
+- Step 16: **-10 to -12%** — maximum rush, right before the landing.
+- Beat 1 (landing kick): **0% or +3%** — the sudden "normalization" after the rushed fill creates a snap. Landing slightly late after rushing into it feels like throwing a punch and then planting your feet.
+
+The contrast between the rush and the landing is the fill. Without the landing the rush just sounds frantic.`,
   },
 }
 
@@ -165,7 +209,16 @@ The power of the one drop comes from that empty beat 1. Your ear expects somethi
 
 The open hi-hat on the "a" of beat 1 (step 4) creates the swaying quality — it's that slight anticipation before beat 2.`,
     fills: `Reggae fills are rare and minimal. A "skank" fill: add snare hits on the & of every beat (steps 3, 7, 11, 15) for one bar. Then drop back into the one drop. The contrast between density and space is the fill.`,
-    soul: `Reggae's feel is about weight and patience. The empty beat 1 asks you to wait — and then the drop satisfies. It's one of the most spiritual grooves in music because it mirrors breathing: inhale (silence), exhale (the drop). Play it slow and trust the space.`,
+    soul: `The one drop is the heaviest lay back of any pattern in this curriculum. At 65–80 BPM, a 16th note step is 187–230ms — a lot of room to pull behind the grid without the pattern falling apart.
+
+**OXI One timing offsets for maximum weight:**
+- Kick + snare together (step 9): **+20 to +25%** — this is the most extreme lay back you'll use. It should feel almost wrong the first time you hear it alone. In context, it feels like the floor dropping out.
+- Closed hi-hat: **+8 to +12%** — the hat also lays back, but less than the drop. It creates a sway rather than a thud.
+- Open hi-hat (steps 4 and 12): **-5%** — push these slightly early. They're the anticipatory "lift" before the next beat — they pull you forward just before the drop pulls you back.
+
+The interplay between the early open hat and the late drop is the entire groove. Try: open hat at -5%, drop at +22%. That 27% difference across just a few steps is what makes one drop feel like gravity.
+
+Slower BPM = more absolute lag at the same percentage. At 70 BPM, +22% is about 40ms late. That's detectable by the body, not just the ears.`,
   },
 }
 
@@ -191,7 +244,17 @@ The clave is assigned to Sequencer 8 in your OXI One setup — this is the first
 
 The clave is always there even when it's not played. The other instruments imply it. Once you internalize the clave feel, you can layer anything over it and it will lock.`,
     fills: `Latin fills often use the conga or timbale — translate this to snare and tom. A common fill: add snare hits on steps 15, 16, and then 1 (crossing the bar line). The anticipation of beat 1 ("the and-a-one") is a classic Latin setup.`,
-    soul: `The clave is one of the oldest rhythmic concepts in the African diaspora. It survived the Middle Passage and became the foundation of son, salsa, rumba, and through those, jazz and rock and roll. When you program a clave on your sequencer, you're touching something ancient.`,
+    soul: `Latin grooves feel tight and propulsive — they push forward, not back. The clave has an urgency to it; it doesn't drag. This is the opposite of reggae or boom bap. Your timing offsets should reflect that.
+
+**OXI One timing offsets for Latin feel:**
+- Clave (Sequencer 8, steps 1, 4, 7, 10, 13): **-3 to -5%** — push the clave slightly early. It should feel like it's arriving just ahead of where you expect it, pulling the rest of the band forward.
+- Kick (mirrors clave rhythm, steps 1 and 7): **-3 to -5%** — same push as the clave. They should feel locked together.
+- Snare / rim (step 8): **+3 to +5%** — slight lay back on the rim. It "answers" the clave with a little sway, creating a tension between the driving clave and the resting rim.
+- Hi-hat: **0% to -3%** — neutral or very slightly pushed. Latin hi-hat is tight, not loose.
+
+The key contrast: clave and kick pushing, snare slightly pulling back. That conversation between forward and back is the feel.
+
+Try the clave at -4% first — before any other offsets. It will immediately feel more alive than at 0%.`,
   },
 }
 
@@ -221,7 +284,16 @@ Try tapping your foot on 2 and 4 while the music plays. In jazz, that foot tap i
     fills: `Jazz fills (called "fills" or "set-ups") are usually 2–4 beats on the snare or toms, leading into a phrase. The key: jazz fills respond to the soloist. They "answer" what the horn or piano plays, not a predetermined pattern.
 
 On a drum machine, you're giving a suggestion: a tom hit on step 15, then a crash on step 1, setting up a new chorus.`,
-    soul: `Jazz drumming is conversation. The drummer listens to every other instrument and responds in real time. Elvin Jones described it as "playing with people, not at them." On a drum machine, you're setting a framework — the soul comes from what you arrange around it.`,
+    soul: `In a 16-step sequencer, true triplet swing can't be programmed perfectly — but you can approximate it with timing offsets on the "off" ride hits. Those are the hits on steps 4, 8, 12, and 16 in this pattern: the "let" of "tri-p-let." They should land late.
+
+**OXI One timing offsets to approximate swing:**
+- Ride "on" hits (steps 1, 5, 9, 13): **0%** — the downbeats are the anchor. Keep them on the grid.
+- Ride "off" hits (steps 4, 8, 12, 16): **+10 to +15%** — push these late to simulate the delayed triplet. +12% is a good starting point. The more you increase it, the "harder" the swing.
+- Foot hi-hat (steps 5 and 13): **0%** — the hi-hat foot is the time-keeper. Grid only.
+- Kick (feathered, steps 1 and 9): **+5 to +8%** — feathering is a lazy gesture by nature. A slight lag fits.
+- Snare (comp, steps 7 and 15): **variable** — push to -8% when "answering" a phrase (urgency), lay back to +10% for a heavy response. Jazz snare comping is expressive; don't lock it to one offset.
+
+The single most impactful change: ride off-beats at +12%. That one move transforms a stiff grid into something that swings.`,
   },
 }
 
@@ -249,8 +321,18 @@ const fillsPt2: Lesson = {
     fills: `Three advanced fill shapes:
 1. **The slow build**: start with 8th notes, move to 16th notes across the fill — it accelerates naturally.
 2. **The reverse cascade**: floor tom → mid tom → high tom → snare (bottom up). Defies expectation, creates a "lift" into the new section.
-3. **The dropout fill**: remove everything (kick, hi-hat) in the last 2 beats and just play snare. The sudden nakedness before a big drop is more powerful than any note you could add.`,
-    soul: `The greatest fills leave you wanting to hear them again. They feel necessary, not decorative. When you program a fill, ask: does this feel like it had to happen? If the answer is no, take notes out. The fill that works is usually the simpler one you thought wasn't enough.`,
+3. **The dropout fill**: remove everything (kick, toms) in the last 2 beats and just play snare. The sudden nakedness before a big drop is more powerful than any note you could add.`,
+    soul: `A masterclass fill combines two timing effects: the fill body rushes (pulling you toward the landing), and the landing itself settles heavy. The ear hears the rush as inevitability — "of course it lands there."
+
+**OXI One timing offsets for a composed fill:**
+- Groove section (steps 1–8): maintain your established feel — whatever lay back or push you've been using.
+- Early fill notes (steps 9–12): **-3 to -5%** — slight push as the fill begins to build. The gathering feeling starts here.
+- Mid fill (steps 13–14): **-8%** — urgency increases.
+- Late fill (steps 15–16): **-10 to -12%** — maximum rush.
+- Crash on beat 1: **0% or +3%** — land right on or slightly late. After rushing into it, even a dead-on-grid landing feels like weight.
+- Kick underneath crash (step 1): **+5%** — the kick lags slightly under the crash for maximum downbeat heaviness.
+
+Additionally, treat velocities across the fill as a crescendo: steps 9–10 at 60%, 11–12 at 75%, 13–14 at 85%, 15–16 at 95%, crash at 100%. The volume arc and the timing arc together create the sensation of inevitability.`,
   },
 }
 
@@ -278,7 +360,21 @@ Two tools for humanization on any drum machine:
 
 Steve Reich's "Music for 18 Musicians" is a useful study in how tiny phase differences between identical patterns create motion and feel.`,
     fills: `Humanized fills accent the beginning and end of the fill, with lighter hits in the middle. Think of it as a crescendo: soft → medium → loud → CRASH. Program the velocities explicitly rather than leaving them all at 100%.`,
-    soul: `J Dilla was famous for deliberately programming his MPC to play slightly behind the beat — not by accident, but as a choice. That "drunk" feel became one of the most influential sounds in hip-hop production. The soul of a drum machine isn't in spite of its rigidity; it's in what you do with that rigidity. The grid is yours to break.`,
+    soul: `J Dilla programmed his MPC to play behind the beat deliberately — not by accident. That "drunk" feel, combined with intentionally imperfect velocities, became one of the most influential sounds in modern music. You can recreate that system on the OXI One.
+
+**The Dilla method — OXI One offsets:**
+- Kick: **+15 to +20%** — very late. Feels wrong in isolation, right in context.
+- Snare: **+12 to +18%** — late, but slightly less than the kick. The kick "falls into" the snare.
+- Hi-hat: **0%** — the grid anchor. Without something on the grid, "late" has no reference.
+- Ghost notes: **-3 to -5%** — push them early. The contrast between early ghosts and late full hits is the pocket.
+
+**Velocity variation — the other half:**
+A timing offset alone doesn't complete the feel. Pair it with velocity randomness:
+- Main hits: 90–100% velocity (vary ±5% per hit, not identical each loop)
+- Hi-hat off-beats: 50–65% (alternate, not uniform)
+- Ghost notes: 30–40%
+
+There's also a psychoacoustic trick: quieter notes are *perceived* as slightly late even when they're on the grid. A ghost note at 35% velocity will feel late to the ear even at 0% offset. This means velocity and timing work together — you don't always need large offsets if your velocities are already varied.`,
   },
 }
 

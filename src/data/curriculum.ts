@@ -192,24 +192,68 @@ const electronic: Lesson = {
     { name: 'Hi-Hat Open', family: 'hihat', sequencer: 8, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,_] },
   ],
   tabs: {
-    theory: `Four on the floor means the kick hits every quarter note — steps 1, 5, 9, 13. It's relentless, metronomic, and designed to keep a crowd moving for hours.
+    theory: `Four on the floor is the simplest idea in dance music and the most powerful: the kick hits **every quarter note** — \`steps 1, 5, 9, 13\`. No displacement, no syncopation, no mercy. It's a heartbeat you can't argue with, engineered to move a room for six hours.
 
-The open hi-hat on the "& of 2" (step 8) is the secret weapon. That single open hat creates a breath in an otherwise locked pattern — without it, the loop feels robotic.
+## Why relentless works
 
-**OXI One tip:** Kick on steps 1, 5, 9, 13. Closed hat on odd steps (1, 3, 5…). Open hat on step 8 only. Clap layered with snare on 5 and 13. BPM: 120–132 for house, 130–145 for techno.`,
-    ear: `Listen to any house track (Chicago) or techno (Detroit). The kick is the first thing you feel — it never stops. Count with it: every beat has a kick. That relentless pulse is the foundation.
+Rock's kick leaves gaps; house fills them. With a kick on all four beats there's no "missing" pulse for the ear to anticipate — so the body stops predicting and simply *obeys*. That hypnosis is the point. Giorgio Moroder proved it in 1977: Donna Summer's "I Feel Love" rode a Moog modular *sequencer* locked to a pulse, and it sounded like the future because nothing human could be that steady.
 
-The difference between a stiff four-on-the-floor and a groovy one is often just that open hi-hat and whether the clap/snare has any "snap" to it (attack/transient shape).`,
-    fills: `Electronic fills often aren't snare rolls — they're drops. Remove the kick from beat 4 in the last bar (remove step 13). The anticipation of the "missing" kick creates tension. Then the kick comes back on beat 1 and the drop hits hard.`,
-    soul: `Electronic music is the one genre where being on the grid is a stylistic choice, not a limitation. The metronomic kick IS the feel — but "on the grid" doesn't mean every element has to be.
+## The one breath
 
-**OXI One timing offsets to add groove without losing drive:**
-- Kick: **0% to -3%** — dead on grid, or barely pushed. The kick's job is to be the clock.
-- Closed hi-hat: **-3 to -5%** — a subtle push makes the hat feel urgent and forward. This is the difference between house that makes you bob and house that makes you dance.
-- Open hi-hat (step 8): **+5 to +8%** — lay it back slightly. That single open hat is the "exhale" of the pattern — a late exhale feels more relaxed.
-- Clap: offset it **+3 to +5%** from the snare — two hits nearly but not perfectly together widens the clap and makes it feel human.
+The open hi-hat on the **& of 2** (\`step 8\`) is the secret weapon. A single open hat in an otherwise locked grid creates one breath per bar — without it the loop feels robotic; with it, it *grooves*. House and techno live and die by that one hat and the snap of the clap.
 
-House = slight push on hat (-3%), slight lag on open hat (+6%). Techno = everything at 0%, no exceptions. The rigidity IS the aggression.`,
+## The machine is the instrument
+
+The Roland TR-909's kick *is* the genre — Frankie Knuckles in Chicago, the Belleville Three (Juan Atkins, Derrick May, Kevin Saunderson) in Detroit, and every producer since reached for that punchy, tunable boom. Later, Daft Punk filtered whole disco loops over it. The kick isn't keeping time for a band; the kick *is* the band.
+
+> The four-on-the-floor kick doesn't ask you to dance. It assumes you already are.
+
+## OXI One build
+
+- **Kick** (Seq 8): \`steps 1, 5, 9, 13\`
+- **Snare + Clap** (Seq 8): layered on \`steps 5 and 13\`
+- **Closed hi-hat** (Seq 8): every odd step
+- **Open hi-hat** (Seq 8): \`step 8\` only
+- **Tempo:** \`120–132 BPM\` house, \`130–145\` techno.`,
+    ear: `Four-on-the-floor is everywhere, which makes it easy to hear and hard to hear *well*. Train your ear on the difference between a kick that keeps time and a kick that casts a spell.
+
+## The assignment
+
+- **Giorgio Moroder** — Donna Summer, "I Feel Love." The Rosetta Stone: a sequenced pulse that launched synth-pop, house, and techno in one track.
+- **Frankie Knuckles** — the godfather of house, born at Chicago's Warehouse (the club the genre is named for). Listen for warmth laid over the machine.
+- **The Belleville Three** — Juan Atkins, Derrick May ("Strings of Life"), Kevin Saunderson. Detroit techno: the same four kicks, but cold, futurist, mechanical on purpose.
+- **LCD Soundsystem** — "Dance Yrself Clean." James Murphy plays four-on-the-floor with a *human* hand, and the slight drift is the whole emotional payload.
+
+## What to listen for
+
+Count with the kick: *every* beat has one. That's the foundation. Now listen *above* it — the open hat, the clap's transient, the way the hats push. The difference between a stiff loop and one that moves you is almost never the kick. It's everything riding on top of it.
+
+> A great house record is a perfectly steady kick surrounded by things that are *not* perfectly steady. The tension between them is the dance.`,
+    fills: `Electronic music rarely fills with a snare roll — it fills by **taking something away**. The drop is the genre's signature move, and subtraction hits harder than addition.
+
+## The missing kick
+
+Remove the kick from **beat 4** (\`step 13\`) in the last bar before a section change. For the first time in the whole track the relentless pulse *skips* — and the absence is deafening. Your body, trained by hundreds of bars of four-on-the-floor, lurches for a kick that isn't there. Then the kick returns on **beat 1** (\`step 1\`) and the drop lands like a wall.
+
+## Tension is a held breath
+
+This is the opposite of a drum fill: you're not adding energy, you're *withholding* it. A bar of silence, a filtered riser, a single missing kick — these build more anticipation than any tom run, because the listener fills the gap with their own expectation.
+
+> In a band, the drummer plays a fill. In a club, the producer pulls the floor out from under you for exactly one beat — and you jump.`,
+    soul: `Electronic music is the one genre where being **on the grid is a stylistic choice**, not a limitation. The metronomic kick *is* the feel. But "on the grid" was never meant to apply to *every* element.
+
+## Steady kick, moving everything else
+
+- **Kick** (\`steps 1, 5, 9, 13\`): \`0% to -3%\` — dead on the grid or barely pushed. The kick's only job is to be the clock.
+- **Closed hi-hat:** \`-3 to -5%\` — a subtle push makes the hats feel urgent and forward. This is the difference between house that makes you bob and house that makes you *dance*.
+- **Open hi-hat** (\`step 8\`): \`+5 to +8%\` — lay it back slightly. That single open hat is the pattern's exhale, and a late exhale feels relaxed.
+- **Clap** (\`steps 5, 13\`): offset it \`+3 to +5%\` from the snare. Two transients nearly-but-not-perfectly together widen the clap and make it feel like a room full of hands instead of one sample.
+
+## Two philosophies
+
+**House** = a slightly pushed hat (\`-3%\`) and a slightly lagging open hat (\`+6%\`) — warmth, swing, the human hand of a James Murphy or a Chicago DJ. **Techno** = everything at \`0%\`, no exceptions. The Detroit rigidity *is* the aggression; the refusal to swing is the statement.
+
+> House asks the machine to feel human. Techno asks the human to feel like the machine. Same four kicks — opposite souls.`,
   },
 }
 

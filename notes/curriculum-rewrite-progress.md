@@ -1,5 +1,7 @@
 # Curriculum Masterclass Rewrite — Progress / Resume Note
 
+**STATUS: COMPLETE** — all 14 tasks done. Renderer + wiring + Seq 8 fix + all 10 lessons rewritten. Typecheck clean, 50 tests green, production build passes. Branch ready to merge/PR.
+
 **Date:** 2026-06-03
 **Branch:** `curriculum-masterclass-rewrite` (off `main`)
 **Spec:** `docs/superpowers/specs/2026-06-03-curriculum-masterclass-rewrite-design.md`

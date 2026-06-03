@@ -495,26 +495,64 @@ const latin: Lesson = {
     { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
   ],
   tabs: {
-    theory: `The clave (pronounced "clah-veh") is the rhythmic spine of Afro-Cuban music. Everything else in a Latin arrangement locks to it. The son clave pattern is: THREE hits in the first half (steps 1, 4, 7) and TWO hits in the second half (steps 10, 13).
+    theory: `The **clave** (pronounced "*clah-veh*") is the rhythmic spine of Afro-Cuban music — and arguably the most important rhythm cell on the planet. It is the *law*. Every other instrument in a Latin arrangement, from the piano montuno to the bass tumbao, locks to it. Get the clave right and everything sits; get it wrong and nothing does.
 
-The clave is assigned to Sequencer 8 in your OXI One setup — this is the first pattern that uses both sequencers to give you the full picture.
+## The 3-2 son clave
 
-**OXI One tip:** Claves on Sequencer 8, steps 1, 4, 7, 10, 13. Kick on Sequencer 7, steps 1 and 7. Snare on step 8. BPM: 100–120.`,
-    ear: `Listen to any salsa or Afro-Cuban track and clap along, trying to find the clave. It's asymmetric — 3 hits then 2 hits — and once you hear it you can't unhear it.
+The son clave is **asymmetric**: *three* hits in the first half of the bar (\`steps 1, 4, 7\`) and *two* in the second (\`steps 10, 13\`). That 3-2 shape is the engine — a built-in tension and release. Reverse it to 2-3 and you have a different clave entirely; the *direction* matters as much as the notes.
 
-The clave is always there even when it's not played. The other instruments imply it. Once you internalize the clave feel, you can layer anything over it and it will lock.`,
-    fills: `Latin fills often use the conga or timbale — translate this to snare and tom. A common fill: add snare hits on steps 15, 16, and then 1 (crossing the bar line). The anticipation of beat 1 ("the and-a-one") is a classic Latin setup.`,
-    soul: `Latin grooves feel tight and propulsive — they push forward, not back. The clave has an urgency to it; it doesn't drag. This is the opposite of reggae or boom bap. Your timing offsets should reflect that.
+## Everything is the kit
 
-**OXI One timing offsets for Latin feel:**
-- Clave (Sequencer 8, steps 1, 4, 7, 10, 13): **-3 to -5%** — push the clave slightly early. It should feel like it's arriving just ahead of where you expect it, pulling the rest of the band forward.
-- Kick (mirrors clave rhythm, steps 1 and 7): **-3 to -5%** — same push as the clave. They should feel locked together.
-- Snare / rim (step 8): **+3 to +5%** — slight lay back on the rim. It "answers" the clave with a little sway, creating a tension between the driving clave and the resting rim.
-- Hi-hat: **0% to -3%** — neutral or very slightly pushed. Latin hi-hat is tight, not loose.
+On the OXI One all four voices — clave, kick, rim, and hi-hat — sit together on the **kit (Sequencer 8)**. The clave simply earns its own pad as the part everything else answers to. (Seq 7 is the overflow bank for pads 9–16; this pattern never needs it.) Treat the clave's pad as the conductor and the rest as the orchestra.
 
-The key contrast: clave and kick pushing, snare slightly pulling back. That conversation between forward and back is the feel.
+## OXI One build
 
-Try the clave at -4% first — before any other offsets. It will immediately feel more alive than at 0%.`,
+- **Claves** (Seq 8): \`steps 1, 4, 7, 10, 13\` — the 3-2 son clave.
+- **Kick** (Seq 8): \`steps 1 and 7\` — mirroring the front of the clave.
+- **Snare / Rim** (Seq 8): \`step 8\`.
+- **Closed hi-hat** (Seq 8): every odd step.
+- **Tempo:** \`100–120 BPM\`.`,
+    ear: `The clave is the rare rhythm that, once you truly hear it, you can never un-hear. Train your ear to find it inside music that may never play it openly.
+
+## The assignment
+
+- **Tito Puente** — "Oye Como Va," "Para Los Rumberos." The timbale king; hear the clave drive an entire big band.
+- **Changuito** (José Luis Quintana) — Los Van Van. The architect of *songo*; a living encyclopedia of how clave organizes congas, timbales, and drum kit at once.
+- **Giovanni Hidalgo** / **Mongo Santamaría** — conga masters. Mongo's "Afro Blue" is a clave clinic; Hidalgo shows you the instrument's full range.
+- Any **salsa** record — clap along and *find* the 3-2. It's there even when no one strikes the claves.
+
+## What to listen for
+
+The asymmetry: three, then two. Once you lock onto it, notice how the piano, bass, and horns all phrase *around* it — the clave is implied even in silence. Internalize that feel and you can layer almost anything over it and it will lock; lose it and the most virtuosic playing falls apart.
+
+> The clave doesn't have to be played to be present. The whole band carries it in their bodies, like a heartbeat nobody mentions.`,
+    fills: `Latin fills come from the hand-drum tradition — the conga and timbale rolls of a live percussion section. On a kit (or a sequencer) you *translate* that language into snare, toms, and rim.
+
+## Crossing the bar line
+
+A classic setup: add snare hits on \`steps 15, 16\`, then land on \`step 1\` of the next bar. Those two pickups before the downbeat are "**the and-a-one**" — the anticipation that pulls you across the bar line and announces a new section. In clave-based music a fill that *respects* the clave's direction is worth more than a flashy one that fights it.
+
+## Translating an odd grid
+
+This is where a programmer's mind helps. Erin Tate of Minus the Bear came up in math-rock, mapping odd subdivisions and asymmetric phrases onto programmed parts — exactly the skill the clave demands. When you sequence a Latin fill you're not just placing hits; you're translating a fluid, hand-played phrase onto a 16-step grid without flattening its swing. Keep the fill *short* and let it point at the one.
+
+> A Latin fill should sound like a percussionist answering the clave — not interrupting it.`,
+    soul: `Latin grooves push **forward**, not back. Where reggae and boom bap drag, the clave has *urgency* — it arrives a hair ahead of where you expect it and tows the whole band along. Your timing offsets should pull, not lag.
+
+## OXI One offsets for the Latin feel
+
+- **Clave** (\`steps 1, 4, 7, 10, 13\`): \`-3 to -5%\` — push it slightly early. It should feel like it's arriving just ahead of the grid, leading the band forward.
+- **Kick** (\`steps 1, 7\`): \`-3 to -5%\` — the same push as the clave, locked tight to it.
+- **Snare / Rim** (\`step 8\`): \`+3 to +5%\` — a slight lay-back on the rim. It *answers* the clave with a little sway, the tension between a driving clave and a resting rim.
+- **Hi-hat:** \`0% to -3%\` — neutral or barely pushed. Latin hi-hat is tight, not loose.
+
+## The conversation
+
+The key contrast: clave and kick *pushing*, rim slightly *pulling back*. That argument between forward and back — the leader urging on, the answer holding its ground — is the feel. It's the opposite of the one drop's gravity; this is *propulsion*.
+
+Try the clave alone at \`-4%\` before any other offset. It will immediately feel more alive than at \`0%\` — the whole groove leaning into the next bar.
+
+> Reggae makes you wait. The clave makes you *go*.`,
   },
 }
 

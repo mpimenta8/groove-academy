@@ -12,6 +12,7 @@ describe('useProgress', () => {
   it('starts with no completed lessons', () => {
     const { result } = renderHook(() => useProgress())
     expect(result.current.completedIds).toEqual([])
+    expect(result.current.currentLessonIndex).toBe(0)
   })
 
   it('marks a lesson complete', () => {
@@ -65,5 +66,18 @@ describe('useProgress', () => {
     localStorage.setItem('groove-academy-progress', JSON.stringify({ completedIds: ['rock-backbeat'] }))
     const { result } = renderHook(() => useProgress())
     expect(result.current.completedIds).toContain('rock-backbeat')
+  })
+
+  it('persists current lesson index', () => {
+    const { result } = renderHook(() => useProgress())
+    act(() => result.current.setCurrentLesson(3))
+    const stored = JSON.parse(localStorage.getItem('groove-academy-progress') ?? '{}')
+    expect(stored.currentLessonIndex).toBe(3)
+  })
+
+  it('loads current lesson index from localStorage on init', () => {
+    localStorage.setItem('groove-academy-progress', JSON.stringify({ completedIds: [], currentLessonIndex: 5 }))
+    const { result } = renderHook(() => useProgress())
+    expect(result.current.currentLessonIndex).toBe(5)
   })
 })

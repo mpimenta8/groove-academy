@@ -1,28 +1,26 @@
-import { useState } from 'react'
-import { CURRICULUM } from './data/curriculum'
 import { useProgress } from './hooks/useProgress'
 import { CurriculumNav } from './components/CurriculumNav'
 import { LessonView } from './components/LessonView'
+import { CURRICULUM } from './data/curriculum'
 
 export default function App() {
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const { completedIds, markComplete, isComplete, isUnlocked } = useProgress()
+  const { completedIds, currentLessonIndex, markComplete, setCurrentLesson, isComplete, isUnlocked } = useProgress()
 
-  const lesson = CURRICULUM[currentIndex]
+  const lesson = CURRICULUM[currentLessonIndex]
 
   const handlePrev = () => {
-    if (currentIndex > 0) setCurrentIndex(currentIndex - 1)
+    if (currentLessonIndex > 0) setCurrentLesson(currentLessonIndex - 1)
   }
 
   const handleNext = () => {
-    const nextIndex = currentIndex + 1
+    const nextIndex = currentLessonIndex + 1
     if (nextIndex < CURRICULUM.length && isUnlocked(nextIndex)) {
-      setCurrentIndex(nextIndex)
+      setCurrentLesson(nextIndex)
     }
   }
 
   const handleSelect = (index: number) => {
-    if (isUnlocked(index)) setCurrentIndex(index)
+    if (isUnlocked(index)) setCurrentLesson(index)
   }
 
   const handleMarkComplete = () => {
@@ -32,14 +30,14 @@ export default function App() {
   return (
     <div className="flex h-screen bg-neutral-950 overflow-hidden">
       <CurriculumNav
-        currentIndex={currentIndex}
+        currentIndex={currentLessonIndex}
         completedIds={completedIds}
         onSelect={handleSelect}
         isUnlocked={isUnlocked}
       />
       <LessonView
         lesson={lesson}
-        lessonIndex={currentIndex}
+        lessonIndex={currentLessonIndex}
         totalLessons={CURRICULUM.length}
         isComplete={isComplete(lesson.id)}
         onMarkComplete={handleMarkComplete}

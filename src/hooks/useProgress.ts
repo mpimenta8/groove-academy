@@ -5,15 +5,20 @@ const STORAGE_KEY = 'groove-academy-progress'
 
 type ProgressState = {
   completedIds: string[]
+  currentLessonIndex: number
 }
 
 function loadProgress(): ProgressState {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
-    if (!raw) return { completedIds: [] }
-    return JSON.parse(raw) as ProgressState
+    if (!raw) return { completedIds: [], currentLessonIndex: 0 }
+    const parsed = JSON.parse(raw) as Partial<ProgressState>
+    return {
+      completedIds: parsed.completedIds ?? [],
+      currentLessonIndex: parsed.currentLessonIndex ?? 0,
+    }
   } catch {
-    return { completedIds: [] }
+    return { completedIds: [], currentLessonIndex: 0 }
   }
 }
 
@@ -27,7 +32,16 @@ export function useProgress() {
   const markComplete = useCallback((lessonId: string) => {
     setProgress(prev => {
       if (prev.completedIds.includes(lessonId)) return prev
-      const next = { completedIds: [...prev.completedIds, lessonId] }
+      const next = { ...prev, completedIds: [...prev.completedIds, lessonId] }
+      saveProgress(next)
+      return next
+    })
+  }, [])
+
+  const setCurrentLesson = useCallback((index: number) => {
+    setProgress(prev => {
+      if (prev.currentLessonIndex === index) return prev
+      const next = { ...prev, currentLessonIndex: index }
       saveProgress(next)
       return next
     })
@@ -47,5 +61,12 @@ export function useProgress() {
     [progress.completedIds]
   )
 
-  return { completedIds: progress.completedIds, markComplete, isComplete, isUnlocked }
+  return {
+    completedIds: progress.completedIds,
+    currentLessonIndex: progress.currentLessonIndex,
+    markComplete,
+    setCurrentLesson,
+    isComplete,
+    isUnlocked,
+  }
 }

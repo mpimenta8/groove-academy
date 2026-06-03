@@ -12,9 +12,9 @@ const rock: Lesson = {
   genre: 'Rock',
   level: '101',
   instruments: [
-    { name: 'Kick', family: 'kick', sequencer: 7, steps: [X,_,_,_, _,_,_,_, X,_,_,_, _,_,_,_] },
-    { name: 'Snare', family: 'snare', sequencer: 7, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,_,_,_] },
-    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 7, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
+    { name: 'Kick', family: 'kick', sequencer: 8, steps: [X,_,_,_, _,_,_,_, X,_,_,_, _,_,_,_] },
+    { name: 'Snare', family: 'snare', sequencer: 8, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,_,_,_] },
+    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
   ],
   tabs: {
     theory: `The backbeat is the backbone of rock, pop, and R&B. Snare lands on beats 2 and 4 — those are your anchor points. Everything else builds around them.
@@ -51,10 +51,10 @@ const hipHop: Lesson = {
   genre: 'Hip-Hop',
   level: '101',
   instruments: [
-    { name: 'Kick', family: 'kick', sequencer: 7, steps: [X,_,_,_, _,_,X,_, _,_,_,_, _,_,_,_] },
-    { name: 'Snare', family: 'snare', sequencer: 7, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,_,_,_] },
-    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 7, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
-    { name: 'Hi-Hat Open', family: 'hihat', sequencer: 7, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,X] },
+    { name: 'Kick', family: 'kick', sequencer: 8, steps: [X,_,_,_, _,_,X,_, _,_,_,_, _,_,_,_] },
+    { name: 'Snare', family: 'snare', sequencer: 8, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,_,_,_] },
+    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
+    { name: 'Hi-Hat Open', family: 'hihat', sequencer: 8, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,X] },
   ],
   tabs: {
     theory: `Hip-hop breaks from rock's symmetry. The kick doesn't stay on 1 and 3 — it wanders. In this pattern, the second kick hits on the "& of 2" (step 7) instead of beat 3. That displacement is the groove.
@@ -85,11 +85,11 @@ const electronic: Lesson = {
   genre: 'Electronic',
   level: '101',
   instruments: [
-    { name: 'Kick', family: 'kick', sequencer: 7, steps: [X,_,_,_, X,_,_,_, X,_,_,_, X,_,_,_] },
-    { name: 'Snare', family: 'snare', sequencer: 7, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,_,_,_] },
-    { name: 'Clap', family: 'clap', sequencer: 7, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,_,_,_] },
-    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 7, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
-    { name: 'Hi-Hat Open', family: 'hihat', sequencer: 7, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,_] },
+    { name: 'Kick', family: 'kick', sequencer: 8, steps: [X,_,_,_, X,_,_,_, X,_,_,_, X,_,_,_] },
+    { name: 'Snare', family: 'snare', sequencer: 8, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,_,_,_] },
+    { name: 'Clap', family: 'clap', sequencer: 8, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,_,_,_] },
+    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
+    { name: 'Hi-Hat Open', family: 'hihat', sequencer: 8, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,_] },
   ],
   tabs: {
     theory: `Four on the floor means the kick hits every quarter note — steps 1, 5, 9, 13. It's relentless, metronomic, and designed to keep a crowd moving for hours.
@@ -120,10 +120,10 @@ const funk: Lesson = {
   genre: 'Funk',
   level: '201',
   instruments: [
-    { name: 'Kick', family: 'kick', sequencer: 7, steps: [X,_,_,_, _,_,_,_, _,_,X,_, _,_,_,_] },
-    { name: 'Snare', family: 'snare', sequencer: 7, steps: [_,_,g,_, X,_,g,_, _,_,_,g, X,g,_,_] },
-    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 7, steps: [X,X,X,X, X,X,X,X, X,X,X,X, X,X,X,X] },
-    { name: 'Hi-Hat Open', family: 'hihat', sequencer: 7, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,_] },
+    { name: 'Kick', family: 'kick', sequencer: 8, steps: [X,_,_,_, _,_,_,_, _,_,X,_, _,_,_,_] },
+    { name: 'Snare', family: 'snare', sequencer: 8, steps: [_,_,g,_, X,_,g,_, _,_,_,g, X,g,_,_] },
+    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,X,X,X, X,X,X,X, X,X,X,X, X,X,X,X] },
+    { name: 'Hi-Hat Open', family: 'hihat', sequencer: 8, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,_] },
   ],
   tabs: {
     theory: `Funk lives in the 16th notes. The hi-hat plays every 16th note in this pattern — that density is what makes it feel like it's moving. Then within that density, you place accents and ghost notes to create contour.
@@ -154,11 +154,11 @@ const fillsPt1: Lesson = {
   genre: 'Cross-genre',
   level: '201',
   instruments: [
-    { name: 'Kick', family: 'kick', sequencer: 7, steps: [X,_,_,_, _,_,_,_, X,_,_,_, _,_,_,X] },
-    { name: 'Snare', family: 'snare', sequencer: 7, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,X,X,X] },
-    { name: 'Tom High', family: 'tom', sequencer: 7, steps: [_,_,_,_, _,_,_,_, _,_,_,_, _,_,X,_] },
-    { name: 'Tom Mid', family: 'tom', sequencer: 7, steps: [_,_,_,_, _,_,_,_, _,_,_,_, _,_,_,X] },
-    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 7, steps: [X,_,X,_, X,_,X,_, X,_,X,_, _,_,_,_] },
+    { name: 'Kick', family: 'kick', sequencer: 8, steps: [X,_,_,_, _,_,_,_, X,_,_,_, _,_,_,X] },
+    { name: 'Snare', family: 'snare', sequencer: 8, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,X,X,X] },
+    { name: 'Tom High', family: 'tom', sequencer: 8, steps: [_,_,_,_, _,_,_,_, _,_,_,_, _,_,X,_] },
+    { name: 'Tom Mid', family: 'tom', sequencer: 8, steps: [_,_,_,_, _,_,_,_, _,_,_,_, _,_,_,X] },
+    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,_,X,_, X,_,X,_, X,_,X,_, _,_,_,_] },
   ],
   tabs: {
     theory: `A fill is a break in the pattern that signals a transition — into a new section, a new bar, or a change in energy. The most important thing about a fill is what comes AFTER it: the landing.
@@ -194,10 +194,10 @@ const reggae: Lesson = {
   genre: 'Reggae',
   level: '201',
   instruments: [
-    { name: 'Kick', family: 'kick', sequencer: 7, steps: [_,_,_,_, _,_,_,_, X,_,_,_, _,_,_,_] },
-    { name: 'Snare / Rim', family: 'snare', sequencer: 7, steps: [_,_,_,_, _,_,_,_, X,_,_,_, _,_,_,_] },
-    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 7, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
-    { name: 'Hi-Hat Open', family: 'hihat', sequencer: 7, steps: [_,_,_,X, _,_,_,_, _,_,_,X, _,_,_,_] },
+    { name: 'Kick', family: 'kick', sequencer: 8, steps: [_,_,_,_, _,_,_,_, X,_,_,_, _,_,_,_] },
+    { name: 'Snare / Rim', family: 'snare', sequencer: 8, steps: [_,_,_,_, _,_,_,_, X,_,_,_, _,_,_,_] },
+    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
+    { name: 'Hi-Hat Open', family: 'hihat', sequencer: 8, steps: [_,_,_,X, _,_,_,_, _,_,_,X, _,_,_,_] },
   ],
   tabs: {
     theory: `"One drop" means the kick and snare drop TOGETHER on beat 3 — and beat 1 is entirely empty. This is the opposite of rock's instinct to anchor beat 1.
@@ -229,10 +229,10 @@ const latin: Lesson = {
   genre: 'Latin',
   level: '201',
   instruments: [
-    { name: 'Kick', family: 'kick', sequencer: 7, steps: [X,_,_,_, _,_,X,_, _,_,_,_, _,_,_,_] },
-    { name: 'Snare / Rim', family: 'snare', sequencer: 7, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,_] },
+    { name: 'Kick', family: 'kick', sequencer: 8, steps: [X,_,_,_, _,_,X,_, _,_,_,_, _,_,_,_] },
+    { name: 'Snare / Rim', family: 'snare', sequencer: 8, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,_] },
     { name: 'Claves', family: 'percussion', sequencer: 8, steps: [X,_,_,X, _,_,X,_, _,X,_,_, X,_,_,_] },
-    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 7, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
+    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
   ],
   tabs: {
     theory: `The clave (pronounced "clah-veh") is the rhythmic spine of Afro-Cuban music. Everything else in a Latin arrangement locks to it. The son clave pattern is: THREE hits in the first half (steps 1, 4, 7) and TWO hits in the second half (steps 10, 13).
@@ -265,10 +265,10 @@ const jazz: Lesson = {
   genre: 'Jazz',
   level: 'masterclass',
   instruments: [
-    { name: 'Ride Cymbal', family: 'cymbal', sequencer: 7, steps: [X,_,_,X, X,_,_,X, X,_,_,X, X,_,_,X] },
-    { name: 'Hi-Hat (foot)', family: 'hihat', sequencer: 7, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,_,_,_] },
-    { name: 'Snare (comp)', family: 'snare', sequencer: 7, steps: [_,_,_,_, _,_,X,_, _,_,_,_, _,_,X,_] },
-    { name: 'Kick (feather)', family: 'kick', sequencer: 7, steps: [X,_,_,_, _,_,_,_, X,_,_,_, _,_,_,_] },
+    { name: 'Ride Cymbal', family: 'cymbal', sequencer: 8, steps: [X,_,_,X, X,_,_,X, X,_,_,X, X,_,_,X] },
+    { name: 'Hi-Hat (foot)', family: 'hihat', sequencer: 8, steps: [_,_,_,_, X,_,_,_, _,_,_,_, X,_,_,_] },
+    { name: 'Snare (comp)', family: 'snare', sequencer: 8, steps: [_,_,_,_, _,_,X,_, _,_,_,_, _,_,X,_] },
+    { name: 'Kick (feather)', family: 'kick', sequencer: 8, steps: [X,_,_,_, _,_,_,_, X,_,_,_, _,_,_,_] },
   ],
   tabs: {
     theory: `Jazz swing lives in a triplet grid, not a 16th note grid. Each beat divides into 3 (triplets) rather than 4 (16th notes). The ride cymbal plays "1 - trip - let" where "trip" is skipped and "let" is played — creating the "da-DUM da-DUM" swing feel.
@@ -304,12 +304,12 @@ const fillsPt2: Lesson = {
   genre: 'Cross-genre',
   level: 'masterclass',
   instruments: [
-    { name: 'Kick', family: 'kick', sequencer: 7, steps: [X,_,_,_, _,_,_,_, _,_,_,_, _,_,_,X] },
-    { name: 'Snare', family: 'snare', sequencer: 7, steps: [_,_,_,_, X,_,_,_, X,X,_,_, X,X,X,X] },
-    { name: 'Tom High', family: 'tom', sequencer: 7, steps: [_,_,_,_, _,_,_,_, _,_,X,_, _,_,_,X] },
-    { name: 'Tom Mid', family: 'tom', sequencer: 7, steps: [_,_,_,_, _,_,_,_, _,_,_,X, _,_,X,_] },
-    { name: 'Tom Floor', family: 'tom', sequencer: 7, steps: [_,_,_,_, _,_,_,_, _,_,_,_, _,X,_,_] },
-    { name: 'Crash', family: 'cymbal', sequencer: 7, steps: [X,_,_,_, _,_,_,_, _,_,_,_, _,_,_,_] },
+    { name: 'Kick', family: 'kick', sequencer: 8, steps: [X,_,_,_, _,_,_,_, _,_,_,_, _,_,_,X] },
+    { name: 'Snare', family: 'snare', sequencer: 8, steps: [_,_,_,_, X,_,_,_, X,X,_,_, X,X,X,X] },
+    { name: 'Tom High', family: 'tom', sequencer: 8, steps: [_,_,_,_, _,_,_,_, _,_,X,_, _,_,_,X] },
+    { name: 'Tom Mid', family: 'tom', sequencer: 8, steps: [_,_,_,_, _,_,_,_, _,_,_,X, _,_,X,_] },
+    { name: 'Tom Floor', family: 'tom', sequencer: 8, steps: [_,_,_,_, _,_,_,_, _,_,_,_, _,X,_,_] },
+    { name: 'Crash', family: 'cymbal', sequencer: 8, steps: [X,_,_,_, _,_,_,_, _,_,_,_, _,_,_,_] },
   ],
   tabs: {
     theory: `A masterclass fill isn't longer or faster — it's better placed. The fill in this pattern starts early (beat 3, step 9) and builds across the entire second half of the bar. The crash on beat 1 is the landing.
@@ -343,10 +343,10 @@ const humanization: Lesson = {
   genre: 'Cross-genre',
   level: 'masterclass',
   instruments: [
-    { name: 'Kick', family: 'kick', sequencer: 7, steps: [X,_,_,_, X,_,_,_, X,_,_,_, X,_,_,_] },
-    { name: 'Snare', family: 'snare', sequencer: 7, steps: [_,_,g,_, X,_,g,_, g,_,_,g, X,_,g,_] },
-    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 7, steps: [X,g,X,g, X,g,X,g, X,g,X,g, X,g,X,g] },
-    { name: 'Hi-Hat Open', family: 'hihat', sequencer: 7, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,X] },
+    { name: 'Kick', family: 'kick', sequencer: 8, steps: [X,_,_,_, X,_,_,_, X,_,_,_, X,_,_,_] },
+    { name: 'Snare', family: 'snare', sequencer: 8, steps: [_,_,g,_, X,_,g,_, g,_,_,g, X,_,g,_] },
+    { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,g,X,g, X,g,X,g, X,g,X,g, X,g,X,g] },
+    { name: 'Hi-Hat Open', family: 'hihat', sequencer: 8, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,X] },
   ],
   tabs: {
     theory: `The grid is a suggestion. A human drummer never hits every note at the same velocity. The hi-hat pattern here alternates between full and ghost hits — on a real kit, a drummer's hi-hat naturally accents beats 1 and 3 while the "in-between" strokes are lighter.

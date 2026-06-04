@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { LessonTabs as LessonTabsType } from '../types'
+import { Markdown } from './Markdown'
 
 type Tab = 'theory' | 'ear' | 'fills' | 'soul'
 
@@ -35,8 +36,8 @@ export function LessonTabs({ tabs }: LessonTabsProps) {
           </button>
         ))}
       </div>
-      <div className="p-4 bg-neutral-950 text-neutral-300 text-sm leading-relaxed whitespace-pre-wrap">
-        {tabs[activeTab]}
+      <div className="p-4 bg-neutral-950">
+        <Markdown source={tabs[activeTab]} />
       </div>
     </div>
   )

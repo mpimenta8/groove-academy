@@ -117,7 +117,7 @@ In this pattern the second kick lands on the **& of 2** (\`step 7\`), not on bea
 
 ## The breath
 
-The open hi-hat on the **& of 2 and & of 4** (\`steps 8 and 16\`) is the breath in the pattern. It cracks open just before the snare, then snaps shut — the hat *inhales* so the snare can *land*. Without it the loop is airless; with it, the groove sways.
+The open hi-hat on the **"a" of 2 and "a" of 4** (\`steps 8 and 16\`) is the breath in the pattern. It cracks open on the last 16th of the beat and rings *into* the downbeat that follows — the lift into beat 3, then into the next bar's 1 — before it snaps shut. The hat *inhales* so the next downbeat can *land*. Without it the loop is airless; with it, the groove sways.
 
 ## The grid as a canvas
 
@@ -170,7 +170,7 @@ J Dilla turned **quantize off** on his Akai MPC3000 and played the pads by hand 
 - **Kick** (\`steps 1, 7\`): \`+15 to +20%\` — almost shockingly late. This is the weight, the engine of the Dilla / Pete Rock thud.
 - **Snare** (\`steps 5, 13\`): \`+10 to +15%\` — late, but *less* than the kick, so the kick "falls into" the snare.
 - **Closed hi-hat:** \`0%\` — dead on the grid. Without an on-grid anchor, "late" has nothing to be late *against*, and the whole thing just sounds slow.
-- **Open hi-hat** (\`steps 8, 16\`): \`-5%\` — pushed slightly early. The open hat *anticipates* the snare instead of following it — the gasp before the crack.
+- **Open hi-hat** (\`steps 8, 16\`): \`-5%\` — pushed slightly early. The open hat *anticipates* the downbeat it lifts into rather than dragging behind the beat it leaves — the gasp before the next beat lands.
 
 ## The machine was part of it
 
@@ -200,7 +200,7 @@ Rock's kick leaves gaps; house fills them. With a kick on all four beats there's
 
 ## The one breath
 
-The open hi-hat on the **& of 2** (\`step 8\`) is the secret weapon. A single open hat in an otherwise locked grid creates one breath per bar — without it the loop feels robotic; with it, it *grooves*. House and techno live and die by that one hat and the snap of the clap.
+The open hi-hat on the **"a" of 2** (\`step 8\`) is the secret weapon. A single open hat in an otherwise locked grid creates one breath per bar — without it the loop feels robotic; with it, it *grooves*. House and techno live and die by that one hat and the snap of the clap.
 
 ## The machine is the instrument
 
@@ -247,7 +247,8 @@ This is the opposite of a drum fill: you're not adding energy, you're *withholdi
 - **Kick** (\`steps 1, 5, 9, 13\`): \`0% to -3%\` — dead on the grid or barely pushed. The kick's only job is to be the clock.
 - **Closed hi-hat:** \`-3 to -5%\` — a subtle push makes the hats feel urgent and forward. This is the difference between house that makes you bob and house that makes you *dance*.
 - **Open hi-hat** (\`step 8\`): \`+5 to +8%\` — lay it back slightly. That single open hat is the pattern's exhale, and a late exhale feels relaxed.
-- **Clap** (\`steps 5, 13\`): offset it \`+3 to +5%\` from the snare. Two transients nearly-but-not-perfectly together widen the clap and make it feel like a room full of hands instead of one sample.
+- **Snare** (\`steps 5, 13\`): \`0%\` — the backbeat anchor. Like the kick, it's structure, not ornament: keep it on the grid so the listener has a rock-solid 2-and-4 to lock onto. The clap's offset is measured *from here*.
+- **Clap** (\`steps 5, 13\`): offset it \`+3 to +5%\` from the snare. Two transients nearly-but-not-perfectly together widen the clap and make it feel like a room full of hands instead of one sample. The width comes from the *gap*, so if you ever lay the snare back for a warmer feel, add the clap's offset on top of the snare's to keep that gap alive.
 
 ## Two philosophies
 
@@ -324,6 +325,7 @@ The notes were already there as ghosts; you're not adding hits so much as *turni
 - **Full snare** (\`steps 5 and 13\`): \`+5 to +8%\` — the crack lands heavy. The contrast between early ghosts and late backbeats *is* the tension.
 - **Kick** (\`steps 1 and 11\`): \`-3 to -5%\` — push it slightly. A funk kick often leads the snare, propelling the groove forward.
 - **Hi-hat** (all 16 steps): alternate \`-3%\` and \`+3%\` consistently odd/even — not random, a *wave*. That subtle early/late ripple across the 16ths is what makes a programmed hat breathe instead of buzz.
+- **Open hi-hat** (\`step 8\`): \`-3 to -5%\` — a touch early, so the single open accent *lifts* into beat 3 instead of dragging behind beat 2.
 
 ## Where to start
 
@@ -476,7 +478,7 @@ Style Scott and the Roots Radics built whole records on this principle: the dram
 
 ## The two-way pull
 
-The entire groove is the interplay between the early open hat and the late drop. Try the open hat at \`-5%\` and the drop at \`+22%\`: that \`~27%\` swing across just a few steps is what makes the one drop feel like *gravity*. And remember — a slower BPM means more absolute lag at the same percentage. At 70 BPM, \`+22%\` is roughly \`40 ms\` late: detectable by the *body*, not just the ears.
+The entire groove is the interplay between the early open hat and the late drop. Try the open hat at \`-5%\` and the drop at \`+22%\`: that \`~27%\` swing across just a few steps is what makes the one drop feel like *gravity*. And remember — a slower BPM means more absolute lag at the same percentage. At 70 BPM, \`+22%\` is roughly \`45 ms\` late: detectable by the *body*, not just the ears.
 
 > The kick is so late it almost misses the beat. That "almost" is the whole feeling.`,
   },
@@ -491,7 +493,7 @@ const latin: Lesson = {
   instruments: [
     { name: 'Kick', family: 'kick', sequencer: 8, steps: [X,_,_,_, _,_,X,_, _,_,_,_, _,_,_,_] },
     { name: 'Snare / Rim', family: 'snare', sequencer: 8, steps: [_,_,_,_, _,_,_,X, _,_,_,_, _,_,_,_] },
-    { name: 'Claves', family: 'percussion', sequencer: 8, steps: [X,_,_,X, _,_,X,_, _,X,_,_, X,_,_,_] },
+    { name: 'Claves', family: 'percussion', sequencer: 8, steps: [X,_,_,X, _,_,X,_, _,_,X,_, X,_,_,_] },
     { name: 'Hi-Hat Closed', family: 'hihat', sequencer: 8, steps: [X,_,X,_, X,_,X,_, X,_,X,_, X,_,X,_] },
   ],
   tabs: {
@@ -499,7 +501,7 @@ const latin: Lesson = {
 
 ## The 3-2 son clave
 
-The son clave is **asymmetric**: *three* hits in the first half of the bar (\`steps 1, 4, 7\`) and *two* in the second (\`steps 10, 13\`). That 3-2 shape is the engine — a built-in tension and release. Reverse it to 2-3 and you have a different clave entirely; the *direction* matters as much as the notes.
+The son clave is **asymmetric**: *three* hits in the first half of the bar (\`steps 1, 4, 7\`) and *two* in the second (\`steps 11, 13\`). That 3-2 shape is the engine — a built-in tension and release. Reverse it to 2-3 and you have a different clave entirely; the *direction* matters as much as the notes.
 
 ## Everything is the kit
 
@@ -507,7 +509,7 @@ On the OXI One all four voices — clave, kick, rim, and hi-hat — sit together
 
 ## OXI One build
 
-- **Claves** (Seq 8): \`steps 1, 4, 7, 10, 13\` — the 3-2 son clave.
+- **Claves** (Seq 8): \`steps 1, 4, 7, 11, 13\` — the 3-2 son clave.
 - **Kick** (Seq 8): \`steps 1 and 7\` — mirroring the front of the clave.
 - **Snare / Rim** (Seq 8): \`step 8\`.
 - **Closed hi-hat** (Seq 8): every odd step.
@@ -541,7 +543,7 @@ This is where a programmer's mind helps. Erin Tate of Minus the Bear came up in 
 
 ## OXI One offsets for the Latin feel
 
-- **Clave** (\`steps 1, 4, 7, 10, 13\`): \`-3 to -5%\` — push it slightly early. It should feel like it's arriving just ahead of the grid, leading the band forward.
+- **Clave** (\`steps 1, 4, 7, 11, 13\`): \`-3 to -5%\` — push it slightly early. It should feel like it's arriving just ahead of the grid, leading the band forward.
 - **Kick** (\`steps 1, 7\`): \`-3 to -5%\` — the same push as the clave, locked tight to it.
 - **Snare / Rim** (\`step 8\`): \`+3 to +5%\` — a slight lay-back on the rim. It *answers* the clave with a little sway, the tension between a driving clave and a resting rim.
 - **Hi-hat:** \`0% to -3%\` — neutral or barely pushed. Latin hi-hat is tight, not loose.
@@ -585,6 +587,7 @@ In jazz the ride keeps time (the "spang-a-lang"), the hi-hat foot chips in on 2 
 
 - **Ride** (Seq 8): \`steps 1, 4, 5, 8, 9, 12, 13, 16\`
 - **Hi-hat foot** (Seq 8): \`steps 5 and 13\`
+- **Snare (comp)** (Seq 8): \`steps 7 and 15\` — one comp voicing, not a fixed part; change it every chorus.
 - **Kick (feathered, very low velocity)** (Seq 8): \`steps 1 and 9\`
 - **Tempo:** \`120–220 BPM\` — jazz tempos vary wildly.`,
     ear: `Jazz is the deepest listening assignment in this course, because the time is *elastic* and the drummer is a *voice*, not a metronome. Train your ear on the masters of the ride.
@@ -774,6 +777,7 @@ You already have the vocabulary: the funk crescendo into the one, the composed r
 - **Snare:** \`+12 to +18%\` — late, but slightly *less* than the kick, so the kick "falls into" the snare.
 - **Hi-hat:** \`0%\` — the grid anchor. Without something on the grid, "late" has no reference and it all just sounds slow.
 - **Ghost notes:** \`-3 to -5%\` — push them early. The contrast between early ghosts and late full hits *is* the pocket.
+- **Open hi-hat** (\`steps 8, 16\`): \`-5%\` — pushed early to lift into the downbeat, the same breath you dialed in on Boom Bap.
 
 ## Velocity is the other half
 

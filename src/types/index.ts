@@ -18,6 +18,7 @@ export type Instrument = {
   name: string
   family: InstrumentFamily
   sequencer: 7 | 8       // OXI One sequencer assignment
+  pad: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16
   steps: [               // always exactly 16 steps
     Step, Step, Step, Step,
     Step, Step, Step, Step,

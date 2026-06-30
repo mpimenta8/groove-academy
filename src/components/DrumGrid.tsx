@@ -29,8 +29,8 @@ export function DrumGrid({ instruments }: DrumGridProps) {
         ))}
       </div>
 
-      {/* Instrument rows */}
-      {instruments.map((instrument) => (
+      {/* Instrument rows — sorted pad-descending to match OXI One layout (pad 16 Crash at top, pad 1 Kick at bottom) */}
+      {[...instruments].sort((a, b) => b.pad - a.pad).map((instrument) => (
         <div
           key={instrument.name}
           className="grid gap-1 mb-1.5 items-center"
